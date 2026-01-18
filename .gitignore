@@ -12,8 +12,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# duplicate video folder (videos should only be in public/video/)
-video/
+# duplicate video folder at repo root (videos live in public/video/)
+/video/
 
 # environment variables
 .env
