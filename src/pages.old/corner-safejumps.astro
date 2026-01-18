@@ -1,0 +1,127 @@
+---
+import Layout from '../components/Layout.astro';
+import ComboCard from '../components/ComboCard.astro';
+
+const currentPath = '/corner-safejumps';
+---
+
+<Layout title="Corner Safejumps - Grimnir Combos" currentPath={currentPath}>
+  <div class="prose prose-lg dark:prose-invert max-w-none">
+    <h1>Corner Safejumps</h1>
+    
+    <ComboCard
+      title="Your First Combo"
+      notation="(starter) > 214H > 2M > 236H > 5H > 623H > 5HHH > 22H"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/your-first-combo.mp4"
+      description="Grimnir's basic corner combo. Not a safejump setup, but you should learn it first because the muscle memory for it is essential to the rest of his combo routing. Meterless, does a good chunk of damage, and sets up seals. Even without a setup, having seals up is already plenty threatening."
+    />
+    
+    <ComboCard
+      title="Metered Safejump"
+      notation="(starter) > 214H > 2M > 236H > 5H > 623H > 22U (> 5U > j.6U whiff > j.H  safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/metered-1.mp4"
+      description="The first safejump setup you should learn: Grimnir's basic corner combo, but ending in 22U. It's a good setup with no major flaws.<br/><br/>Minor flaw #1: it requires 50 meter (but with the refund only costs 25). Grimnir builds meter very quickly so you'll almost always have enough, but especially early in the round it can be good to save and avoid falling below 50% in case you get reset to neutral.<br/><br/>Minor flaw #2: it uses one seal to time the j.H. This is the easiest and most consistent safejump out of 22U, but if you're a little more confident in your button presses you can end the combo in (2L whiff > jump forward > j.H safejump) to conserve the extra seal.<br/><br/>All that said the combo as written is still excellent - solid damage, easy, consistent, and the starter is very common. Combos like this where the first special is 214H are good to learn because you can do them out of any starter, or even if the opponent isn't quite in the corner yet. There will be setups later that only work off of close starters like autocombo while standing directly in the corner. They're still valid setups, but because they're more specific you won't have as many chances to hit them in a match."
+    />
+    
+    <ComboCard
+      title="Standard Meterless Safejump"
+      notation="(starter) > 214H > 5L > 5H > 236H~4 > 623H > j.H > rejump j.H (> j.22H > j.6U whiff > j.M safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/meterless-fuzzy.mp4"
+      description="This is Grimnir's easiest and most popular meterless safejump setup. It's also consistent, though a couple parts take a little practice. The 5L > 5H link might be weird at first, but it's also a really good frametrap on block so it's worth learning even if you don't like this combo. If you really hate it you can replace it with 5LL for a medium-sized damage hit.<br/><br/>Note that this setup is a j.M safejump. j.H will work, but it actually loses to wakeup throw. This is forbidden knowledge so your opponent probably doesn't know, up to you whether or not you want to chance it. The biggest downside of j.M safejump is that it can be rolled, so you need to be ready to react to more options."
+    />
+    
+    <h1>Bonus Routes</h1>
+    <p>These setups are either more difficult or less useful than the above setups. They still have their uses, especially if your execution is good, but you should learn them after.</p>
+    
+    <ComboCard
+      title="Old Meterless Safejump"
+      notation="(starter) > 214H > 2M > 236H~8 > 5H > 623H > j.22H > j.6U > j.L > 2.H (> 5U > j.H  safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/old-route-1.mp4"
+      description="This was the popular route on the release version of the game. It's pretty difficult, but it's another meterless safejump from a common starter, and the weird jump arc of the 5U leaves a little more room for ambiguity than regular safejumps."
+    />
+    
+    <ComboCard
+      title="Metered Safejump (rejump j.22U)"
+      notation="(starter) > 214H > 5L > 5H > 236H~4 > 623H > j.H > rejump j.22U (> land > 5L whiff > jump > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/rejump-22u-1.mp4"
+      description="Alternate ender to the standard meterless safejump combo listed near the top of this page. The rejump j.22U is slightly awkward but very consistent. Strongly recommend using the skill button instead of manually inputting 22U. This ender is entirely interchangeable with the meterless ender (rejump j.H > j.22H > j.M safejump). For simplicity, any future combos that use these enders will list the meterless one, but know that you can do this one instead if you want to."
+    />
+    
+    <ComboCard
+      title="Metered Safejump (delay 22U)"
+      notation="(starter) > 214H > 5L > 5H > 236H~4 > 623H > j.H > (delay)22U (> 5H whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/metered-delay-22u-1.mp4"
+      description="Slightly more difficult version of the previous route. Its big appeal is the ambiguity in the timing. Not very useful as a safejump, but shows its true worth when we start talking about <a href='/grimnir/empty-lows' class='text-grimnir-gold hover:text-grimnir-gold-bright'>empty low setups</a> because your frame advantage depends on how much you delay 22U. Earlier 22U hits are more plus."
+    />
+    
+    <ComboCard
+      title="Meterless j.214H Safejump"
+      notation="autocombo > 623H > j.214H > j.22H > j.2U > 5H > 236H~8 > 5HHH (> j.8U whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/meterless-new-1.mp4"
+      description="The j.22H > j.2U link is awkward and takes getting used to. It will show up in several of these bonus routes, so it's good to learn. This combo does a bit more damage than the meterless combos listed in the main section of the page, but it uses up an additional seal so the trade is questionable. Again, the main appeal of these bonus routes is just &quot;doing a different combo.&quot;<br/><br/>Note the starter. Unlike routes that place 214H as your first special, 623H routes require you to already be hugging them in the corner, so you're less likely to get this hit in a match. It works out of a couple situations other than autocombo, e.g. (2L > f.L > 623H), but for simplicity I'm just going to list combos like these as autocombo starters."
+    />
+    
+    <ComboCard
+      title="Metered j.214H Safejump"
+      notation="autocombo > 623H > j.H > rejump j.H > j.214H > 5H > 236H~8 > 22U > 2H (> 5U > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/metered-new-1.mp4"
+      description="Pretty easy metered safejump that does very good damage compared to the mainline route. Its downside is, again, that the starter is more specific."
+    />
+    
+    <ComboCard
+      title="Meterless Skyhigh Safejump"
+      notation="autocombo > 623H > j.H > rejump j.H > j.214H > j.22H > j.2U > 2H > 8U (delay 8U whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/meterless-skyhigh-1.mp4"
+      description="Funny highjump safejump. Unfortunately a little more difficult than it looks. You need to manually delay the second 8U or you'll land before your opponent and whiff the j.H."
+    />
+    
+    <ComboCard
+      title="Metered Skyhigh Safejump"
+      notation="(starter) > 214H > 2M > 623H > j.22H > j.38U > j.68U > j.22U (> j.268U whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/metered-skyhigh-1.mp4"
+      description="Funny highjump safejump, metered edition. The convoluted dash pattern does bonus mental damage to your opponent (and your seal count). This one is actually easier than it looks. Let go of the button after the j.38U, and the j.68U will time itself. The j.268U isn't quite autotimed, but the timing is pretty lenient."
+    />
+    
+    <ComboCard
+      title="Zipper Safejump"
+      notation="autocombo > 623H > j.H > rejump j.H > j.214H > j.22H > j.2U > 8U > j.H > 2H (> delay 5U > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/zipper-1.mp4"
+      description="Up-down-up-down-up-down. Very fun meterless safejump. You need to delay the 5U cancel out of 2H until one of the late cancel frames or your j.H will miss."
+    />
+    
+    <ComboCard
+      title="Ball Whiff Safejump"
+      notation="(starter) > 623M > j.1U > 2H > 214M > 22U > 8U > j.H > j.214H (> j.L safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/ball-whiff-safejump.mp4"
+      description="Requires a high seal already set. Looks kind of like a combo drop and sometimes baits people to panic DP."
+    />
+    
+    <ComboCard
+      title="Grounded Tornado Safejump"
+      notation="autocombo > 236H > 5HHH (crouch) or 5MMM (standing) > 623H > j.H > 2H > 5U > j.M > j.214H > 22U (> 2L whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/grounded-tornado.mp4"
+      description="You need to be close to the opponent. If you have seals set up somewhere other than the corner the 5U will ruin the combo, so sub out the ender for whatever you feel confident in making up on the spot."
+    />
+    
+    <ComboCard
+      title="66H Safejump"
+      notation="(starter) > 214H > 5L > 623H > 5H > 236H~8 > 66H > 22U (> 5L whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/66h-fuzzy.mp4"
+      description="Now we get into 66H routes. Using 66H mid-combo is pretty difficult. You need to make sure you hold forward and press dash, and *then* H. Don't press them at the same time. You also need to make sure to wait until your character can move before pressing it because you can't buffer dash attacks. Basically, the timing is hard. These are the bonus routes of the bonus routes."
+    />
+    
+    <ComboCard
+      title="66H Safejump But Cooler"
+      notation="autocombo > 623H > j.H > rejump j.H > j.214H > 5H > 236H~8 > 66H > 22U (> 5L whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/66h-fuzzy-but-cooler.mp4"
+      description="Bonus swag points for comboing into airball. Also tacks on a bit more damage. But if you're too far the combo will drop."
+    />
+    
+    <ComboCard
+      title="Air Seal 66H Safejump"
+      notation="(starter) > 623M > j.1U > 5H > 236H~8 > 66H > 623H > j.H > rejump j.H (> j.22H > j.6U whiff > j.M safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/66h-top-seal.mp4"
+      description="Requires an air seal already set and you need to be close to the opponent. Doing j.2U instead of j.1U makes the combo more consistent for literally no downside, but it doesn't look as cool."
+    />
+  </div>
+</Layout>

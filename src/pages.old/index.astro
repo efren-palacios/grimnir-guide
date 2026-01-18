@@ -1,0 +1,65 @@
+---
+import Layout from '../components/Layout.astro';
+
+const currentPath = '/';
+---
+
+<Layout title="Grimnir Combos" currentPath={currentPath}>
+  <div class="prose prose-lg dark:prose-invert max-w-none">
+    <h1 class="mb-8">Grimnir Combos</h1>
+    
+    <div class="mb-8 p-6 bg-[var(--bg-secondary)] rounded-lg border border-[var(--border-color)]">
+      <h2 class="text-2xl font-serif font-semibold mb-4 text-[var(--text-primary)]">Navigation</h2>
+      <ul class="space-y-2">
+        <li><a href="/grimnir/recommended" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">Recommended Combos for New Grim Players</a></li>
+        <li><a href="/grimnir/corner-safejumps" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">Corner Safejumps</a></li>
+        <li><a href="/grimnir/camera-5050" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">Camera 50/50</a></li>
+        <li><a href="/grimnir/tornado-setups" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">Tornado Setups</a></li>
+        <li><a href="/grimnir/midscreen" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">Midscreen Combos</a></li>
+        <li><a href="/grimnir/antiairs" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">Antiairs</a></li>
+        <li><a href="/grimnir/empty-lows" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">Empty Lows</a></li>
+        <li><a href="/grimnir/gimmicks" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">Gimmicks</a></li>
+        <li><a href="/grimnir/u-skill-starters" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">U Skill Starters</a></li>
+        <li><a href="/grimnir/super-combos" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">Super and Cashout Combos</a></li>
+        <li><a href="/grimnir/install" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">Install Tech</a></li>
+        <li><a href="/grimnir/matchup-notes" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">Matchup Notes</a></li>
+      </ul>
+    </div>
+    
+    <p class="mb-4">Grimnir tech resource. Links to combos/setups above. Below is an overview of the game's combo system and some terminology explanation.</p>
+    
+    <p class="mb-4">Granblue combo basics: Granblue's "combo limit" system only kicks in after the opponent is launched, so as long as the opponent is grounded you can do as many hits as you can fit in without it affecting the launcher portion of the combo. As a result you'll usually see combos start with (starter) because, well, it actually doesn't matter. Some common (starter)s:</p>
+    
+    <ul class="mb-4 ml-6 space-y-1">
+      <li>autocombo</li>
+      <li>f.H</li>
+      <li>2L > 2L > f.L</li>
+      <li>c.L > 5HHH</li>
+      <li>5MMM > gale dash > 5MMM > gale dash > 5MMM</li>
+      <li>f.H</li>
+    </ul>
+    
+    <p class="mb-4">Special input translation for people that use skill button (that's me):</p>
+    
+    <ul class="mb-4 ml-6 space-y-1">
+      <li>236X is tornado</li>
+      <li>214X is kick</li>
+      <li>623X is spin</li>
+      <li>22X is seal set</li>
+      <li>j.22X is air seal set</li>
+      <li>j.214X is air ball</li>
+      <li>XU is seal dash in the X direction</li>
+      <li>j.XU is air seal dash in the X direction</li>
+    </ul>
+    
+    <p class="mb-4">What do the numbers mean? It's called "numpad notation" and they represent directions. 2 is down, 6 is forward, 4 is backward. Grimnir's combo notation is extra fun because you get to use stuff like 7 and 9 for some combos. Most characters don't get to do that. Grimnir privilege.</p>
+    
+    <p class="mb-4">For tornado specifically you'll see "236H~X". This is to denote the tornado followup. 236H~8 is up tornado. 236H~4 is stop tornado.</p>
+    
+    <p class="mb-4">You'll also see "rejump" in some combos. This means to land, jump again, and do the input. Another thing most characters in this game don't get to do, but you're playing a cool character so you get to do the cool stuff.</p>
+    
+    <p class="mb-4">What is the fuzzy? Without getting into the inner workings, it's hitting a falling jump attack, and then hitting a second jump attack while rising for a sort of "double overhead." You might see it in old gameplay videos, but fuzzies as a concept were entirely removed in version 2.10 and you can no longer perform them.</p>
+    
+    <p class="mb-4">The Street Fighter 6-style frame meter at the bottom of each video is a mod: <a href="https://github.com/agersant/gbvsr-frame-meter" target="_blank" rel="noopener noreferrer" class="text-grimnir-accent-blue hover:text-grimnir-accent-blue-light">https://github.com/agersant/gbvsr-frame-meter</a> Not necessary but can help you figure out what you're doing wrong.</p>
+  </div>
+</Layout>

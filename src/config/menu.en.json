@@ -1,0 +1,85 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/grimnir/"
+    },
+    {
+      "name": "Recommended",
+      "url": "/grimnir/recommended/"
+    },
+    {
+      "name": "Combos",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Corner Safejumps",
+          "url": "/grimnir/corner-safejumps/"
+        },
+        {
+          "name": "Midscreen",
+          "url": "/grimnir/midscreen/"
+        },
+        {
+          "name": "Antiairs",
+          "url": "/grimnir/antiairs/"
+        },
+        {
+          "name": "Empty Lows",
+          "url": "/grimnir/empty-lows/"
+        },
+        {
+          "name": "Super Combos",
+          "url": "/grimnir/super-combos/"
+        },
+        {
+          "name": "U Skill Starters",
+          "url": "/grimnir/u-skill-starters/"
+        }
+      ]
+        },
+        {
+      "name": "Setups",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Tornado Setups",
+          "url": "/grimnir/tornado-setups/"
+        },
+        {
+          "name": "Camera 50/50",
+          "url": "/grimnir/camera-5050/"
+        },
+        {
+          "name": "Gimmicks",
+          "url": "/grimnir/gimmicks/"
+        },
+        {
+          "name": "Install Tech",
+          "url": "/grimnir/install/"
+        }
+      ]
+        },
+        {
+      "name": "Matchups",
+      "url": "/grimnir/matchup-notes/"
+        }
+  ],
+  "footer": {
+    "community": {
+      "title": "Resources",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/grimnir-combos/grimnir-combos.github.io"
+        },
+        {
+          "name": "Frame Meter Mod",
+          "url": "https://github.com/agersant/gbvsr-frame-meter"
+        }
+      ]
+    }
+  }
+}

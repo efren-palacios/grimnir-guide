@@ -1,0 +1,74 @@
+---
+import CharacterHeader from './CharacterHeader.astro';
+
+interface Props {
+  name: string;
+  image: string;
+  notes: string[];
+}
+
+const { name, image, notes } = Astro.props;
+const imagePath = image.includes('.') ? image : `${image}.jpg`;
+const basePath = '/grimnir';
+---
+
+<div class="character-matchup">
+  <h2 class="character-matchup-name">{name}</h2>
+  <div class="matchup-notes">
+    {notes.map((note) => (
+      <p class="matchup-note">{note}</p>
+    ))}
+  </div>
+</div>
+
+<style>
+  .character-matchup {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #1a2d4a; /* Dark blue from gradient */
+    border: 1px solid rgba(45, 118, 254, 0.4); /* Blue accent border */
+    border-radius: 0.5rem;
+  }
+  
+  :root[data-theme="light"] .character-matchup {
+    background-color: #cce0ff; /* Light blue from gradient */
+    border-color: rgba(45, 118, 254, 0.3);
+  }
+  
+  :root[data-theme="dark"] .character-matchup {
+    background-color: #1a2d4a; /* Dark blue from gradient */
+    border-color: rgba(45, 118, 254, 0.4);
+  }
+  
+  .character-matchup-name {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: var(--sl-color-white);
+    margin: 0 0 1rem 0;
+  }
+  
+  .matchup-notes {
+    margin-top: 1rem;
+  }
+  
+  .matchup-note {
+    margin-bottom: 1rem;
+    color: var(--sl-color-white);
+    line-height: 1.6;
+  }
+  
+  .matchup-note:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .character-matchup-image {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .character-matchup-name {
+      font-size: 2.25rem;
+    }
+  }
+</style>

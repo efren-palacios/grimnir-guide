@@ -1,0 +1,56 @@
+---
+import CharacterGrid from './CharacterGrid.astro';
+import MatchupTable from './MatchupTable.astro';
+import matchupsData from '../data/matchups.json' assert { type: 'json' };
+
+const tableHeaders = ["", "Buttons that reach", "Buttons that don't", "Wait", "66L", "Jump", "7f low"];
+const tableRows = [
+  ["f.H", "WIN", "LOSE", "LOSE*", "WIN", "WIN", "LOSE"],
+  ["2M", "WIN", "CLASH", "LOSE", "WIN", "WIN", "LOSE"],
+  ["Delay 2M", "LOSE", "WIN", "CLASH", "LOSE", "LOSE", "LOSE"],
+  ["Wait", "LOSE", "WIN", "CLASH", "LOSE", "WIN", "LOSE"],
+  ["66L", "LOSE", "LOSE", "WIN", "CLASH", "LOSE", "LOSE"],
+  ["j.214U", "LOSE", "WIN", "LOSE", "LOSE", "WIN", "WIN"]
+];
+---
+
+<div class="matchup-content">
+  <MatchupTable headers={tableHeaders} rows={tableRows} />
+
+  <p><em>f.H loses to people that are specifically waiting to whiff-punish, but if they wait long enough for the second hit to connect the situation loops back around to our favor.</em></p>
+
+  <p>Notice that Grimnir is broadly unfavored against people that wait after throwtech. The 66L is a risky option you can use to call this out.</p>
+
+  <p>Some characters have 7f lows that beat almost anything we go for, or buttons that meaningfully change the throw RPS in their favor. These exceptions will be noted in the character-specific section. If a character doesn't have any exceptions, they'll be listed as "default."</p>
+
+  <h2>Select a Character</h2>
+
+  <CharacterGrid characters={matchupsData.characters} />
+</div>
+
+<style>
+  .matchup-content {
+    margin-top: 2rem;
+  }
+  
+  .select-prompt {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--sl-color-white);
+    background-color: #1a2d4a; /* Dark blue from gradient */
+    border: 1px solid rgba(45, 118, 254, 0.4); /* Blue accent border */
+    border-radius: 0.5rem;
+    font-style: italic;
+  }
+  
+  :root[data-theme="light"] .select-prompt {
+    background-color: #cce0ff; /* Light blue from gradient */
+    border-color: rgba(45, 118, 254, 0.3);
+  }
+  
+  :root[data-theme="dark"] .select-prompt {
+    background-color: #1a2d4a; /* Dark blue from gradient */
+    border-color: rgba(45, 118, 254, 0.4);
+  }
+</style>

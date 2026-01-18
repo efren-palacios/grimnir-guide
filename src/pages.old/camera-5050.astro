@@ -1,0 +1,54 @@
+---
+import Layout from '../components/Layout.astro';
+import ComboCard from '../components/ComboCard.astro';
+
+const currentPath = '/camera-5050';
+---
+
+<Layout title="Camera 50/50 - Grimnir Combos" currentPath={currentPath}>
+  <div class="prose prose-lg dark:prose-invert max-w-none">
+    <h1>Camera 50/50</h1>
+    
+    <ComboCard
+      title="Camera High"
+      notation="(starter) > 214H > 2M > 236H > 5H > 623H > j.22U > j.99U (> j.26U whiff > j.L)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/camera-high.mp4"
+      description="Grimnir's most infamous mix. Evil 50/50 setup that abuses the game's camera for a barely-reactable high/low. When I say barely-reactable I mean it. This particular setup is a 20f overhead, but the tell is very ambiguous so in practice it's even better.<br/><br/>Looks harder than it is: though it looks like there's a big delay between the 99 and the 2X airdashes, it's actually all one button - just hold U the whole time.<br/><br/>The biggest appeal of camera setups is that they cannot be brave countered. A big disadvantage is that they are more seal-hungry than safejump setups, so if the opponent blocks you have less to play with. They're also theoretically reactable (i.e. fake mix), and while the high is a safejump, the low (shown in the next combo) loses to DP.<br/><br/>Camera stats: 20f overhead, net -5% meter, leaves 0 seals"
+    />
+    
+    <ComboCard
+      title="Camera Low"
+      notation="(starter) > 214H > 2M > 236H > 5H > 623H > j.22U > j.99U (> j.23U whiff > 2L)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/camera-low.mp4"
+      description="Pretty much the same as the previous combo, but your last dash is down-forward instead of forward. You can skip the 3U at the end to conserve a seal, but a suitably prepared opponent can react to the audio cue of you only dashing once."
+    />
+    
+    <ComboCard
+      title="Airball Camera"
+      notation="(starter) > 623H > 2M > 236H~8 > superjump j.M > j.214H > j.22U > j.9U (> camera ender)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/camera-highball.mp4"
+      description="More difficult camera setup that leaves an additional ground seal for higher reward on hit or additional pressure on block. Worse meter gain than the previous route, but if you start with 100 meter, the extra seal actually lets you build back the 50% on hit to end the resulting combo in super, a privilege the original camera combo no longer gets.<br/><br/>Camera stats: 20f overhead, net -6% meter, leaves 1 seal"
+    />
+    
+    <ComboCard
+      title="Top Seal Camera"
+      notation="(starter) > 214H > 2M > 236H > 5H > 623H > j.22U > j.9U (> camera ender)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/top-seal-camera.mp4"
+      description="In patch 2.00, Grimnir was nerfed to no longer get U skill refund when linking a U skill midair after an H special. This was the devs' chosen nerf to camera mix.<br/><br/>It didn't work.<br/><br/>This is what is known as a &quot;refund route&quot; because it sets up camera mix in a way where we still get the 25% U skill refund. If you're looping camera mix into camera mix you won't see much of a difference, but it's notably convenient if you want to do camera mix -> super because you no longer need to convolute your routing to build the meter in time.<br/><br/>This route is nearly identical to the original camera route, but it requires you to already have a high seal set.<br/><br/>Note that you are supposed to slightly delay the j.9U like I did in the video. If you press it instantly the combo won't drop but it will be very significantly more reactable.<br/><br/>You can also use a low seal instead of a high seal. In this case it's less reactable (19f overhead), but it does mean abbreviating your starter so you'll lose out on quite a bit of damage for the combo itself.<br/><br/>Camera stats: 21f overhead, net +24% meter, leaves 1 seal"
+    />
+    
+    <ComboCard
+      title="Double Seal Camera"
+      notation="(starter) > 236H~6 > 22U > 5HH > 623H > j.8U > (delay)j.H (> j.22L > camera ender)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/camera-refund-1.mp4"
+      description="Another refund route. Slightly more reactable, but it also uniquely leaves behind 2 ground seals, so you're in a stronger position on block.<br/><br/>Slightly delay the j.H until you fall on top of the seal like I did in the video. If you press it instantly the combo won't drop but it will be very significantly more reactable.<br/><br/>Camera stats: 21f overhead, net +0% meter, leaves 2 seals"
+    />
+    
+    <ComboCard
+      title="Yobu Camera"
+      notation="(starter) > 623H > j.214H > j.22H > j.2U > j.8U > j.H > j.9U > j.22U > j.9U (> camera ender)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/camera-refund-2.mp4"
+      description="Named after the player that discovered it, but the name is misleading because Yobu has found way more than one setup. Another refund route. This one is interesting because it's actually *less* reactable than the original camera setup. It also doesn't require tornado at all, so you can do it even if tornado is on cooldown. AND it builds significantly more meter. The only &quot;downside&quot; is that it only leaves behind 1 seal. But in general, you can think of this as the strongest known camera setup. Use this when you have an appropriate starter.<br/><br/>Camera stats: 18f overhead, net +20% meter, leaves 1 seal"
+    />
+  </div>
+</Layout>

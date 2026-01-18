@@ -1,0 +1,24 @@
+---
+interface Props {
+  name: string;
+  imageSrc: string;
+}
+
+const { name, imageSrc } = Astro.props;
+const basePath = '/grimnir';
+---
+
+<div class="flex items-center gap-4 mb-6">
+  <h2 class="character-header-name text-2xl md:text-3xl font-semibold">{name}</h2>
+  <img 
+    src={`${basePath}${imageSrc}`} 
+    alt={name}
+    class="w-16 h-16 md:w-20 md:h-20 rounded-full border-2 border-[var(--sl-color-gray-3)] object-cover"
+  />
+</div>
+
+<style>
+  .character-header-name {
+    color: var(--sl-color-white);
+  }
+</style>

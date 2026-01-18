@@ -1,0 +1,92 @@
+---
+interface Props {
+  headers: string[];
+  rows: string[][];
+}
+
+const { headers, rows } = Astro.props;
+---
+
+<div class="overflow-x-auto my-6">
+  <table class="matchup-table min-w-full border-collapse">
+    <thead>
+      <tr class="matchup-table-header">
+        {headers.map((header) => (
+          <th class="matchup-table-th">{header}</th>
+        ))}
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((row, rowIndex) => (
+        <tr class={rowIndex % 2 === 0 ? 'matchup-table-row-even' : 'matchup-table-row-odd'}>
+          {row.map((cell) => (
+            <td class="matchup-table-td">{cell}</td>
+          ))}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .matchup-table {
+    border: 1px solid rgba(45, 118, 254, 0.4);
+    background-color: #1a2d4a; /* Dark blue from gradient */
+  }
+  
+  :root[data-theme="light"] .matchup-table {
+    border-color: rgba(45, 118, 254, 0.3);
+    background-color: #cce0ff; /* Light blue from gradient */
+  }
+  
+  :root[data-theme="dark"] .matchup-table {
+    border-color: rgba(45, 118, 254, 0.4);
+    background-color: #1a2d4a; /* Dark blue from gradient */
+  }
+  
+  .matchup-table-header {
+    background-color: #1a3d6b; /* Slightly lighter dark blue */
+  }
+  
+  :root[data-theme="light"] .matchup-table-header {
+    background-color: #b3d1ff; /* Slightly darker light blue */
+  }
+  
+  .matchup-table-th {
+    border: 1px solid rgba(45, 118, 254, 0.4);
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: var(--sl-color-white);
+  }
+  
+  :root[data-theme="light"] .matchup-table-th {
+    border-color: rgba(45, 118, 254, 0.3);
+  }
+  
+  .matchup-table-row-even {
+    background-color: #1a2d4a; /* Dark blue from gradient */
+  }
+  
+  :root[data-theme="light"] .matchup-table-row-even {
+    background-color: #cce0ff; /* Light blue from gradient */
+  }
+  
+  .matchup-table-row-odd {
+    background-color: #1a3d6b; /* Slightly lighter dark blue */
+  }
+  
+  :root[data-theme="light"] .matchup-table-row-odd {
+    background-color: #b3d1ff; /* Slightly darker light blue */
+  }
+  
+  .matchup-table-td {
+    border: 1px solid rgba(45, 118, 254, 0.4);
+    padding: 0.75rem 1rem;
+    color: var(--sl-color-white);
+  }
+  
+  :root[data-theme="light"] .matchup-table-td {
+    border-color: rgba(45, 118, 254, 0.3);
+  }
+</style>

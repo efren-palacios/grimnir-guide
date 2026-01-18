@@ -1,0 +1,64 @@
+---
+import ComboNotation from './ComboNotation.astro';
+import VideoPlayer from './VideoPlayer.astro';
+
+interface Props {
+  notation: string;
+  videoSrc?: string;
+  videoSrcs?: string[];
+  description?: string;
+  title?: string;
+}
+
+const { notation, videoSrc, videoSrcs, description, title } = Astro.props;
+const videos = videoSrcs || (videoSrc ? [videoSrc] : []);
+---
+
+<div class="combo-card mb-8 p-6 rounded-lg border shadow-sm hover:border-[var(--sl-color-accent)] transition-colors">
+  {title && (
+    <h3 class="combo-card-title text-xl font-semibold mb-3">{title}</h3>
+  )}
+  <ComboNotation notation={notation} />
+  {videos.map((src) => (
+    <VideoPlayer src={src} />
+  ))}
+  {description && (
+    <div class="combo-card-description mt-4 leading-relaxed" set:html={description} />
+  )}
+</div>
+
+<style>
+  .combo-card {
+    background-color: #1a2d4a; /* Dark blue from gradient */
+    border-color: rgba(45, 118, 254, 0.4); /* Blue accent border */
+    backdrop-filter: blur(10px);
+  }
+  
+  :root[data-theme="light"] .combo-card {
+    background-color: #cce0ff; /* Light blue from gradient */
+    border-color: rgba(45, 118, 254, 0.3); /* Blue accent border */
+  }
+  
+  :root[data-theme="dark"] .combo-card {
+    background-color: #1a2d4a; /* Dark blue from gradient */
+    border-color: rgba(45, 118, 254, 0.4); /* Blue accent border */
+  }
+  
+  .combo-card:hover {
+    background-color: #1a3d6b; /* Slightly lighter dark blue on hover */
+    border-color: rgba(45, 118, 254, 0.6);
+  }
+  
+  :root[data-theme="light"] .combo-card:hover {
+    background-color: #b3d1ff; /* Slightly darker light blue on hover */
+    border-color: rgba(45, 118, 254, 0.5);
+  }
+  
+  .combo-card-title {
+    color: var(--sl-color-white);
+  }
+  
+  .combo-card-description {
+    color: var(--sl-color-white);
+  }
+</style>

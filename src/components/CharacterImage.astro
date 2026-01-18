@@ -1,0 +1,74 @@
+---
+interface Props {
+  character?: string;
+}
+
+const { character } = Astro.props;
+const url = Astro.url;
+
+// Get character slug from URL path or prop
+let characterSlug = character;
+if (!characterSlug) {
+  // Extract from URL path like /grimnir/matchup-notes/katalina
+  const pathParts = url.pathname.split('/').filter(p => p);
+  const matchupIndex = pathParts.indexOf('matchup-notes');
+  if (matchupIndex !== -1 && matchupIndex + 1 < pathParts.length) {
+    characterSlug = pathParts[matchupIndex + 1];
+  }
+}
+
+// Find character data
+import matchupsData from '../data/matchups-full.json' assert { type: 'json' };
+
+// Helper to match slug
+function matchesSlug(char: any, slug: string): boolean {
+  const name = char.name;
+  if (name === 'Avatar Belial' && slug === 'avatar-belial') return true;
+  if (name === '2B' && slug === '2b') return true;
+  if (name === 'EX Gran' && slug === 'ex-gran') return true;
+  if (name === 'EX Djeeta' && slug === 'ex-djeeta') return true;
+  if (name === 'EX Narmaya' && slug === 'ex-narmaya') return true;
+  const charSlug = name.toLowerCase().replace(/\s+/g, '-');
+  return charSlug === slug;
+}
+
+const selectedCharData = characterSlug 
+  ? matchupsData.characters.find(char => matchesSlug(char, characterSlug!))
+  : null;
+
+const basePath = '/grimnir';
+---
+
+{selectedCharData && (
+  <div class="character-image-header">
+    <img 
+      src={`${basePath}/charicons/${selectedCharData.image}`}
+      alt={selectedCharData.name}
+      class="character-header-image"
+      loading="lazy"
+    />
+  </div>
+)}
+
+<style>
+  .character-image-header {
+    margin: 1rem 0 2rem 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .character-header-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(45, 118, 254, 0.4); /* Blue accent border */
+  }
+  
+  @media (min-width: 768px) {
+    .character-header-image {
+      width: 120px;
+      height: 120px;
+    }
+  }
+</style>

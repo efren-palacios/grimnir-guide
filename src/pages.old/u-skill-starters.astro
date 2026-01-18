@@ -1,0 +1,33 @@
+---
+import Layout from '../components/Layout.astro';
+import ComboCard from '../components/ComboCard.astro';
+
+const currentPath = '/u-skill-starters';
+---
+
+<Layout title="U Skill Starters - Grimnir Combos" currentPath={currentPath}>
+  <div class="prose prose-lg dark:prose-invert max-w-none">
+    <h1>U Skill Starters</h1>
+    
+    <ComboCard
+      title="214U starter (reaches corner)"
+      notation="214U > 5H > 623H > 5H > 236H > 5H > 214H > 22U (> 2L whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/214u-starter.mp4"
+      description="If you're close enough to the corner, you can convert your 214U starter into a full combo + setup of your choice. Video shows metered safejump, but you can go into most corner routing off this if you just think of the 214U as a 214H instead.<br/><br/>Be aware that if the opponent is in the corner (as shown), you can be punished on block with backthrow. In older versions you could be punished with 6f buttons, but as of version 2.20 we're now only -4, so throw is the best anyone can do."
+    />
+    
+    <ComboCard
+      title="236U starter (near corner)"
+      notation="236U > 214U > 2H > 623H > 5H > 214H > 5H (> 236L~4 whiff)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/236u-starter.mp4"
+      description="Outside of the corner we no longer get a meaningful combo with 236U, but against people pressing projectile to try and create space out of the corner you can punish into a full combo like this. The 214U > 2H is more stable than it looks."
+    />
+    
+    <ComboCard
+      title="22U starter"
+      notation="22U > 5HHH > 6U > 5HHH > 6U > 5HHH > 236H > 66L > 2M > raging strike > raging chain > 5H > 623H > 5H > 214H > 5H > raging strike > raging chain > 5H > raging strike > raging chain"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/22u-starter.mp4"
+      description="You can run up to someone in the corner and press 22U to crush their throwtech attempt. If it hits you do loads of damage. If they block you can cancel into seal dash to keep pressure. May or may not be a bad use of meter but it's really funny when it works. Note that 22U is -6 on block, so if you do it midscreen or don't cancel into dash you're punishable."
+    />
+  </div>
+</Layout>

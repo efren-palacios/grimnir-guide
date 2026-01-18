@@ -1,0 +1,824 @@
+{
+  "characters": [
+    {
+      "name": "Gran",
+      "image": "gran.jpg",
+      "paragraphs": [
+        "Defense is difficult due to his many plus frames and 5U. His sweep low-profiles both of our common pokes. Airdash is good against his fireball, but he can punish it on block with DP so don't throw it out too much.",
+        "The little uppercut he does at the start of his M fireball destroys opposing fireballs, including stop tornado, so be ready for him to try to punish seal set with it. If you wait, you can just hit him out of the startup.",
+        "Don't spotdodge his U kick - punish it on block with 2M. The other kicks can be plus when spaced, though when done up close they're punishable.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Punished by 9f DP.",
+        "Throwtech RPS: Instant 2M will lose to 2M and 2U, but they don't reach so delay 2M will win. You can't backwalk 2U because of proximity guard, but as long as you don't hold crouch (this expands your hurtbox) it will whiff.",
+        "Supers: Despite his SBA looking similar to other competent reaction supers, it's terrible and loses to any form of fireball. But his SSBA is a very good reaction super, be wary. Both can be spotdodged."
+      ]
+    },
+    {
+      "name": "Djeeta",
+      "image": "djeeta.jpg",
+      "paragraphs": [
+        "Has a rekka, but gets no reward off the last hit even on counterhit so it's relatively safe to mash.",
+        "If she has any charge on 5U it's plus. Likes to use it as a throwbait. You can often beat it with fuzzy mash 5L.",
+        "Likes to press U fireball as a throw crush/corner pressure tool, and throw out U rekka randomly in neutral. U fireball leads to a full combo so be careful when challenging in the corner. Also, it's plus on dodge and she can block BC after.",
+        "Midscreen, U rekka doesn't lead to much on hit other than a knockdown, but if it reaches corner she gets a full combo so keep it in mind. If you block it in the corner it's throw punishable.",
+        "Can charge any of her fireballs for enhanced frame data. If you roll a charged fireball during corner pressure you're plus, but be careful of dodging uncharged fireball, because if she charges it instead it'll beat your dodge and you'll die. If you dodge uncharged EX fireball you're not plus enough to safely challenge so you're playing RPS.",
+        "66L: Goes under airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: 2M is a 7f low and beats all options except j.214U.",
+        "Supers: Both can be spotdodged. Like Gran, her SBA will lose to any form of fireball. Unlike Gran, her SSBA is a mediocre reaction super that will whiff past the midrange."
+      ]
+    },
+    {
+      "name": "Katalina",
+      "image": "katalina.jpg",
+      "paragraphs": [
+        "Her charge is an annoying move to deal with. She can't be plus off it, but her buttons are so much better that when spaced she can often stuff an attempt to challenge. When you're near the corner, randomly throwing out H charge is a safe play that can easily lead to a full combo.",
+        "Katalinas will randomly throw out Shield Wall on offense to try and bait BC. If you press BC, you die. If you don't, she broadly has three followups she'll do:",
+        "1) Slash, then backstep. She's minus but far enough away that it can be tough to challenge, especially on reaction.",
+        "2) Slash, then forward step. She is -5 at best and -1 at worst depending on how long she charges. Note that -1 means her throw will beat an attempt to mash 5L, so you have to play the throw RPS.",
+        "3) No slash and backstep. This is extremely punishable, but not on reaction.",
+        "You can sometimes mash to beat her before she has time to do any followup. In particular, Shield Wall only has one point of armor, so f.H's two hits, U tornado's multihit, or just mashing 5L autocombo can all win against delayed followups. If she does it in a blockstring, the slash will generally come out first and beat you, so beware.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Punished by 9f DP.",
+        "Throwtech RPS: 2M is a 7f low and beats all options except j.214U.",
+        "Supers: SBA is a good reaction super that beats all forms of tornado. SSBA's lack of horizontal range makes it much more mediocre. Unfortunately, neither can be spotdodged. You can roll behind SBA, but not SSBA. If she doesn't catch you during dash startup, you can block SSBA (but not SBA). It's annoying to remember."
+      ]
+    },
+    {
+      "name": "Charlotta",
+      "image": "charlotta.jpg",
+      "paragraphs": [
+        "Airdash is useless which makes this matchup more annoying than most. Lean hard on tornado in neutral. Be ready to 2H. Block the commandjump low, take the overhead - the grab has much higher reward than the overhead but whiffs on crouchers.",
+        "M ball is punishable anywhere on screen with f.M. H ball is punishable with 2M if you block it in the corner. If you block U ball in the corner she's punishable with throw. Light ball is never punishable. Do not spotdodge any variant! You will die.",
+        "Her light rapid slash special is safe on block, but the other three are plus! The medium one leaves a large enough window to spotdodge, but you don't get much reward on dodge and the risk is very high so it's hard to recommend. On block she's only +1 and pushed quite far away so the situation is pretty even.",
+        "66L: Goes under airdash.",
+        "Airdash on block: Too short to block airdash.",
+        "Throwtech RPS: Default.",
+        "Supers: SBA is a decent reaction super but loses to stop tornado. SSBA is an excellent antiair super. If you're anywhere remotely near her in the air when she presses it, she got you. Be very careful of playing an extended air game while she has it. SBA can be spotdodged, SSBA cannot, but if you try to spotdodge SBA she won't get cinematic, so it's preferable to taking the full hit when you have no other option (e.g. during a dash)."
+      ]
+    },
+    {
+      "name": "Lancelot",
+      "image": "lancelot.jpg",
+      "paragraphs": [
+        "Try not to exist at the spacing where he can press his charge move and be plus. Either back up farther to play at fullscreen, or approach to play at midscreen. Be ready to antiair. On offense, 623M is good for stopping him from walljumping out of the corner. Remember that the second hit of his DP is an overhead for some reason. Remember to hold the block button.",
+        "Dealing with rekka: He doesn't really get much reward off it on standing hit so the risk/reward on mashing 5L when you see it is often very favorable. Lance players like to do the first hit of EX rekka into throw, and if you're mashing you'll beat them for a full combo. But don't mash a low, because he's +5 on crouching counterhit and gets a full combo! Make sure to mash 5L. The first hit of his light/medium rekka can be plus when spaced.",
+        "You can react to his EX fireball in neutral with U fireball, and on defense with f.H for a full punish. It is slower and an easier reaction than it looks. His U fireball inflicts a unique slowing debuff for a bit that makes anything you whiff turn into instant death. It's a true blockstring out of c.H so he can force you to hold it. Don't BC, and if you have the health, take the throw.",
+        "He has a setup where he does EX fireball into invincible teleport dive. You'll see it most often after SBA. The idea is if you jump the EX fireball, he hits you with the dive into full combo. Unfortunately for him, the invincible teleport isn't invincible on startup and loses to air ball, so you can just jump and press air ball to deal with the setup. (Be aware that he can still antiair you normally! Don't rely on this too much.)",
+        "66L: Loses to airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: His 2M is also a 6f light and will clash with ours. Default otherwise.",
+        "Supers: SBA is a very good reaction super, be aware. SSBA is also decent but loses to stop fireball. Both can be spotdodged."
+      ]
+    },
+    {
+      "name": "Percival",
+      "image": "percival.jpg",
+      "paragraphs": [
+        "His buttons are better and he has a great option against airdash, so neutral can be difficult to navigate. Lean harder on fireball. Try not to burn EX fireball cooldown. His fireball is extremely slow and you can trivially react with U fireball. Can also whiff punish his slower buttons (especially f.H) with 214U.",
+        "Likes to either press f.H or back up round start to try and get early stocks. Can be decent to back off into 214M range and bully with fireballs. Alternatively, setting up seals is a trade probably in our favor.",
+        "Flame carpet: per Dustloop, \"Flame carpet deals 1670 chip damage over 2 seconds as long as they stay on it regardless if they block or not.\" About 10% of our max health. That's significantly less than a throw, so think of it like taking the throw. If you can afford to, it's safer not to let Percival bait you into doing something stupid because of Carpet.",
+        "Command grab: It's quite slow and leads to mediocre damage on hit, unless he has super where it becomes a very intimidating round closer. The massive startup time makes it weaker to fuzzy jump and fuzzy mash than most command grabs.",
+        "His DP is horizontally massive, but has a much worse backward hitbox than it looks so you can often sneak behind it with airdash.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Punished by 9f DP.",
+        "Throwtech RPS: 5L reaches from throwtech distance. You need to crouch, then stand and do a very quick f.M. Difficult to execute. Pointblank, 2M beats most of his other options including 2M and 2U. When spaced you need to back up and delay 2M instead.",
+        "Supers: Neither super can be spotdodged because for some reason he can hold them. Also SBA becomes unblockable when fully charged (a very very long time). SSBA can be difficult to punish if he does it from halfscreen or so away. Both are slow enough to block post-flash, so as long as he doesn't catch you in the literal startup of your dash you'll have time to block."
+      ]
+    },
+    {
+      "name": "Ladiva",
+      "image": "ladiva.jpg",
+      "paragraphs": [
+        "Lariat is very fast in neutral but punishable if you crouch, so be wary of standing around too much.",
+        "On round start, walk back. If she runs forward or does lariat, be ready to duck and check it. Otherwise start throwing tornados and setting up seals.",
+        "Ladivas enjoy jumping on top of our seals and mashing the bellyflop. It is difficult to antiair with Grimnir's 2H and 623M, but a well-timed 623L can antiair.",
+        "On offense, lean on stagger pressure and emphasize throws. You want to avoid eating a counterhit BC. Also, her reversal (U headbutt) loses to throws. Be aware of her mashing 2U and 2M. 2M has more range than you expect and confirms into U lariat. 2U is punishable on block, but it's fast and her strong strike/throw game gives it more reward on hit than most characters so you'll see it a lot.",
+        "Her U headbutt is a \"parry\" so it can't be safejumped - use tornado setups instead. It's also safe on block, so if you want a punish you need to spotdodge the U flash.",
+        "If she has 50, don't press backdash in neutral because the moment you do she'll press U lariat and get lucky. She might also buffer it out of 2M instead. Make sure you spotdodge U lariat! It's an easier reaction than most U skills and gives a full punish.",
+        "Her headbutt eats projectiles and gives her meter, but our ability to mix up tornado followups makes it pretty difficult for her to time it in this matchup.",
+        "On defense: many Ladivas will do one hit of EX headbutt into 66L. 5L mash wins here, though it will lose to her pressing 5L instead. If she does all three hits of EX headbutt it's punishable with throw. Headbutt is also the safest place for you to press brave counter in this matchup. Her command grabs don't do as much damage as similar characters from other games, so don't be too afraid to take some throws.",
+        "If she does a safejump while on 100 meter there are decent odds she'll do empty jump > super, so keep fuzzy jump/fuzzy backdash/fuzzy DP in mind as an option, or fuzzy DP. If she doesn't have 100 regular fuzzy mash will beat most empty jumps (technically loses to U headbutt, beware).",
+        "Her U air grab is completely invulnerable. It can be hard for her to hit us with it, but be aware.",
+        "66L: WINS AGAINST AIRDASH.",
+        "Airdash on block: Has a U skill parry. Super also wins, beware.",
+        "Throwtech RPS: Default.",
+        "Supers: She has a good reaction super but stop tornado actually beats it, so if you want to keep pressing tornado in neutral while she's on 100 you should favor stop tornado. She also has two command grab supers which behave pretty much the same. If you aren't already jumping or backdashing when you see the flash, you're scooped. Notably this means taking any meaningful oki (safejump, tornado setup) against Ladiva while she's on 100 meter is gambling with half your lifebar. The regular super can be spotdodged. The command grabs, obviously, cannot."
+      ]
+    },
+    {
+      "name": "Metera",
+      "image": "metera.jpg",
+      "paragraphs": [
+        "Defense is hard. If your reactions are good you can watch for butterfly and take your turn back with 66L. If she just loops f.L > 66L and arrows you'll need to find a place to mash and pray.",
+        "Her arrow rain doesn't go away on hit which makes it annoying to mash out of with regular buttons. React to it with sweep or U kick.",
+        "Dealing with command jump: 5H > commandjump is punishable with 2H, commandjumps from farther out are better dealt with using 5L. If she does it from far enough away Grimnir doesn't really have any way to challenge. Very difficult to deal with. Try to avoid the spacing where she can jump in like this.",
+        "In neutral, she has a hard time dealing with jump fullscreen - not airdash, just regular jump. Her only air-unblockable antiair is the arrow rain which she generally has to press on prediction. Represent jump around seals a lot to annoy her, run in with 66L when you have her scared of your jump.",
+        "Can throw out ult tornado randomly fullscreen to get lucky with a full combo, low risk and high reward. If she presses her ult arrow instead it wins though so beware.",
+        "Don't tech throws, especially while butterfly is on you. She likes to bait with commandjump or air arrow. Fuzzy mash 5L instead. If you see her do air arrow above you, you can just hold forward to corner swap. Spotdodge works if there's no butterfly, but if there's a butterfly you'll usually die for it.",
+        "She has a very long range sweep that knocks down from any range (why don't we get this? >:[ ). She will randomly press it in neutral to get lucky. Something to keep in mind. She also has an overhead dash attack that you will almost never see, and you'll forget about it around the time she uses it to steal a round. Another thing to keep in mind.",
+        "By far the problem in neutral is butterfly. She can throw out single butterfly basically for free and there isn't really anything we can do to punish her for it - attempting to approach usually results in f.L > death. Navigating around butterfly is key to the matchup. If it's on top of you, you can roll through an arrow she shoots and it will trigger behind you, but if she has 50% be aware that you cannot roll the U arrow. If it's in front of you, you can back up and it will trigger in front of you. Try very hard to position yourself in a way where it does not trigger *on top* of you because this gives her free plus frames.",
+        "U butterfly tracks you somewhat aggressively and stays on hit. Grimnir has better options to run away from it than most characters. Go in the air, run forward, etc. But sometimes you'll be forced to let her detonate it and take free plus frames.",
+        "66L: Loses to airdash.",
+        "Airdash on block: j.L wins against everything except U DP.",
+        "Throwtech RPS: 2M is a 7f low and beats everything except j.214U.",
+        "Supers: SBA has bad horizontal range, making it a bad reaction super. SSBA is a good reaction super and will beat all forms of tornado. SBA can be spotdodged, SSBA cannot. If you're close, you can roll behind her, or if she doesn't catch you during dash startup it's slow enough that you have time to block."
+      ]
+    },
+    {
+      "name": "Lowain",
+      "image": "lowain.jpg",
+      "paragraphs": [
+        "If you hit into his parry with a special-cancellable move, you can spotdodge on reaction. You are always +2 on this dodge. 66L isn't special-cancellable so keep that in mind when structuring your pressure. On whiff, it is extremely difficult to punish - it happens very fast and recovers very quickly. Since it's a parry, it also beats some safejumps, but interestingly you can actually spotdodge sometimes, e.g. on the throw safejump. Note that the followup is unblockable! Sometimes he can press parry on a tornado set, activate it, and do an unblockable followup even if you intend to bait it, so always be ready to dodge.",
+        "He has a sideswap dash attack. It can go over tornado, gives a combo on counterhit, and can't be punished on block, so it's pretty annoying to deal with. If he does it raw you can stuff it with 5L, but often he'll find a gap to throw out one of his setplay tools, then 66H to escape the corner. In these cases, the only decent option is to DP instead.",
+        "He has three forms of Katbot setplay. The light one throws a couple punches. You'll mostly see this after throw as a pseudo \"safejump\" similar to our tornado setup. The medium one fires a laser that beats pretty much every projectile. You have to spotdodge it. The heavy one fires a bunch of missiles. The missiles don't go away if the bot gets hit and a few of them tend to stick around even if you respond with U tornado, so it kind of tends to win neutral for him once it's out. You can try to get around it with air seals or airball, but the best counterplay is to keep the pressure on in neutral so he doesn't get a chance to press it. Throw fireballs. 214M. 66L. We want to stop Lowain from doing his dumb setplay stuff, even if it costs us *our* dumb setplay stuff.",
+        "The M, H, and U versions of his rapid slash special are all punishable (but irritating to remember). Punish M with 5H, H with 5L, and U with 2M > 236H~8. The L version is throw-punishable pointblank, but he'll tend to do it spaced. When spaced it is plus! Beware. Even if it isn't plus, he may try to keep his turn with something like 2M that low-profiles many of our buttons. Mash 2M instead to beat him.",
+        "His other setplay tool is The Boys. The sliding one hits low, but the bellyflopper does not hit high. In neutral, seal dash will tend to beat both the boys and Lowain. Kick also often tends to beat both - 214M can be a good way to bully your way in, though he can react with parry if he's ready. You'll see three common options off this setplay:",
+        "1) Activate the boy(s), then throw you. He can loop this, or he can activate the boy and shimmy you.",
+        "2) Activate the boys, then instantly jump and come down with an aerial. The low always hits first, so block the first boy low then switch high. Remember that his flutter kicks are a multihitting high so you may need to hold high longer than you expect. You can also DP this setup if you're ready.",
+        "3) Activate the boys, then bait your reversal. The boys will give him plus frames to restart his pressure.",
+        "Ultimate Boys isn't a setplay tool - it's a matchup-warping fireball, The Wheel. Once it comes out, it stays out, even on hit, so Lowain players will press this if you give them any corner space, and they will get plus frames for it. If Lowain is close, you cannot spotdodge! He is so plus that he gets a punish with 66L. He truly gets plus frames off this. You have two main ways to play around The Wheel:",
+        "1) Keep the pressure on. The boys don't appear until frame 6, so if you're constantly attacking he won't get a chance to Call The Boys. Unfortunately, this will naturally open you up to parry.",
+        "2) Back off significantly. If you're far enough away, you can spotdodge the boys without repercussions and put him out 50 meter.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Has a parry.",
+        "Throwtech RPS: Default.",
+        "Supers: He has two fundamentally different supers, and knowing the counterplay to them will define your ability to play this matchup.",
+        "SBA, human pyramid: This is his reversal super, and it's pretty much the best reversal super in the game. You will see this a lot. There are a number of different counterplay philosophies.",
+        "1) The low is slower than the high, so block high and react to the low.",
+        "2) Block high, react and spotdodge the low. Lets you avoid some chip, but he can spotdodge to try and bait out your own spotdodge and punish. Personally I think this is harder and don't recommend it.",
+        "3) Fuzzy block high/low. This completely removes the need to distinguish the visual tells, but the execution is more difficult. 4f fuzzy window.",
+        "Punishing the SBA can be difficult. There are two ways he can end it. He can either do a charge that guardbreaks you, or he can do nothing and hop off when time runs out. The guardbreak, despite how it sounds, is minus. If he is pointblank, he is -6 and you can punish with 2M > 236H~8. If he is spaced, it is safe! He might press parry here so be ready. If you spotdodge the charge, you can always get the punish, but if he doesn't do the charge and just hops off instead he'll get away with it, so it can be annoying RPS. If you have 100 meter yourself, you can press super just as the timer ends to punish guaranteed.",
+        "His SSBA, also known as mario party, is a much bigger knowledge check where he summons a giant lady. It is not invulnerable frame 1 so he can't use it as a reversal. You will not see it as often. But if you don't know how to deal with it he will absolutely steal rounds from you. He has four different attacks:",
+        "- Unblockable lava carpet. You must spotdodge this.",
+        "- Triple rock pillar. You can technically react to her raising her arms and spotdodge this, but it's hard. I recommend thinking of this is the unreactable one.",
+        "- Energy ball. She can hold this to throw off your dodge timing.",
+        "- Lightning pillar. Big delay and a lot of chip. Despite how it looks, it can also be spotdodged, but the timing is later than you think. You'll need to practice it.",
+        "In general, you want to move forward! And the Lowain player wants to push you back. If you are right up in his face he will probably press rock pillars to push you back. When he pushes you back, he'll either charge up ball or press lightning pillar. Lightning pillar has a vacuum effect, but you can outrun it!",
+        "Note that charged ball from far enough away will give Lowain an unblockable with lava carpet. This is your biggest incentive to push forward. You don't want to get unblockabled.",
+        "If you're right in Lowain's face when the super ends, you can punish with a button. If you're farther back, you can press U kick right before it ends to punish from fullscreen instead.",
+        "Lowain's supers are at their scariest when you are low on health. It is very difficult to avoid chip from them entirely. Win the round convincingly so you don't have to worry about it!"
+      ]
+    },
+    {
+      "name": "Ferry",
+      "image": "ferry.jpg",
+      "paragraphs": [
+        "Her antiair situation is pretty bad because a lot of her options are air-blockable, so represent neutral jump. If she stays on the ground, set seals and jump around. If she jumps, stay on the ground and snipe with tornado.",
+        "Her setplay may feel like a pure 50/50 (or worse!), but remember that the cat disappears on block. Don't forget to represent mash/DP against her mix - don't let her mix you for free, represent the second layer. When in doubt take the high, it's lower reward. Also be aware that she can potentially combo off both throw and her reactable dash overhead.",
+        "Be careful spotdodging the blue flash in neutral. Spotdodge is great against the blue whip throw, but blue cat will beat spotdodge and you'll die.",
+        "If the Ferry is being predictable, you can roll the whip throw. You get a punish from much farther away than you think - a stark contrast to the Metera matchup. Good Ferries won't be predictable, and roll is a very risky option, so don't count on it too much. It isn't bad to represent it though, because representing it can trick Ferries into charging M whip, which CAN be rolled safely on reaction as soon as you see them holding it.",
+        "66L: Goes under airdash.",
+        "Airdash on block: j.L wins against everything except U DP.",
+        "Throwtech RPS: At min range, 2M clashes with f.L, but our own f.L wins. Don't ask me why.",
+        "Supers: Her SSBA is a mediocre reaction super. It will often go through push tornado, but tends to lose to every other tornado followup (including no followup). It can be spotdodged.",
+        "Her SBA is the ball. It isn't a reversal super; you'll usually see her press it in neutral or after she knocks you down. If you sit there and block honestly, she will get several mixups off the single ball. It is very very difficult not to get hit at all. Some options:",
+        "- The ball bounces in the same arc every time. A common counterplay is to try and sneak under it after the first bounce. Grimnir doesn't have great options for this. You can try 214M or 214U, or if you have seals you can ground dash in.",
+        "- If you BC while the ball is on you, it will usually punish you. However, if you manage to knock Ferry away, she can't follow up and you'll only take a little bit of damage for it.",
+        "- You can usually escape the ball with DP.",
+        "- If you have a lot of screen space to work with, you can aggressively run away.",
+        "- Definitely don't jump.",
+        "She also has an install. You won't see it very often. The main advantage it gives her is the ability to combo off her rising j.L without setplay."
+      ]
+    },
+    {
+      "name": "Zeta",
+      "image": "zeta.jpg",
+      "paragraphs": [
+        "Parry character. Can't safejump, favor tornado setup. tk airdash is really good against her projectile. j.214L is a respectable air-to-air.",
+        "Difficult to take oki on midscreen because 66L gets destroyed by parry and anything other than 66L can lose to jumpback U spear. Not bad to adopt a slower gameplan. Her neutral presence isn't that scary.",
+        "Most important knowledge in this matchup is that you can spotdodge after hitting into her regular and EX parries. Always need to be ready for parry on offense. If she does the jump followup (she usually does the jump followup), you are minus after this spotdodge! Do not 2H. But you can punish guaranteed with either DP or super. If she does either of the other followups she is minus.",
+        "Punishing parry on block: the jump followup can be 2Hed. The other two followups are both most consistently punished with f.M. The big horizontal slash followup is actually safe when spaced, which is especially annoying when she does it during her offense.",
+        "You cannot spotdodge after hitting into her U parry, but she doesn't get a full combo off it so it's fair. It is a million times more active than you think it is which makes it a massive pain to punish.",
+        "Another important piece of knowledge: her grounded spear attack has a max of three followups. If she does all three, you can punish guaranteed with U kick. She might also do one or two dashes toward you and then stop - you can't react to this case, you're guessing on how many followups she wants to do, think of it as a rekka.",
+        "The air spear attack also has a max of three followups and if she does all three you can punish with 214U. But unlike the grounded one, if she stops partway it's trivial to react and punish. If you block air spear attack, you should be ready to punish! The only way for it to be safe is if she hits our toes with the first one and doesn't do any followups, but I don't know if I've ever seen that happen in a real match.",
+        "She can throwbait with runup pogo or runup jump spear, but they are both very risky. If you duck pogo, it's a very easy 2H reaction. If she does jump spear and you block she dies.",
+        "On her offense, there are two main things to watch out for: if she's minus, she might press parry which leads to a full combo on hit. If you try to take your turn back, don't buffer a special and be ready to spotdodge. If she's spaced, she might press U fireball. U fireball has a super early hitbox before she fires off the laser itself (9f) that extends way farther forward that you expect. It's a very annoying button for us to deal with on defense. Full combo on hit, leaves her plus on block.",
+        "Also be wary of U laser in neutral. She can follow it up with U spear on hit for a full combo.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Has a parry.",
+        "Throwtech RPS: Mostly default. Be ready to spotdodge parry. 2U beats 2M but loses to f.H.",
+        "Supers: SBA is a decent reaction super that beats all tornado followups. SSBA has poor horizontal range so it usually won't reach. Both can be spotdodged."
+      ]
+    },
+    {
+      "name": "Vaseraga",
+      "image": "vaseraga.jpg",
+      "paragraphs": [
+        "Vaseraga has a self-buff move that gives the next several uses of one of his \"big\" moves armor. Vas players really really want this armor because he sucks without it. Can react to him setting up armor in neutral with 214U. If he is armored and enters stance/charge from fullscreen you can knock him out with H or U fireball. Your goal is to stop him from setting up armor, or, once he's set up, to hit him out with U fireball and take advantage of the knockdown. If you let him set up armor and do as he pleases you will lose.",
+        "He can bait BC with Armor and full punish you for it, so be careful pressing BC while he has has armor charge.",
+        "He has a weird advancing stance. It has five followups.",
+        "- A very (very) long-ranged low. Hits you even when you think you're outspacing it.",
+        "- A high that whiffs on crouchers. Whiffing on crouchers is actually a good thing for him because it is extremely difficult to react to this whiff. If you aren't confident in your reactions, you should treat him as plus on whiff.",
+        "- A command grab. He has two variants - one that is unreactable but can only be used pointblank, and one that is reactable but can be used from farther out.",
+        "- He slams the hilt of his scythe into the ground. This has unlimited armor! If you try to super Vaseraga, he can press this to completely armor through your super and kill you for it. Don't press super when Vaseraga is in stance. If you're desperate to reversal, DP instead, since he can't react to it - he has to guess with this followup instead.",
+        "- He swings his scythe down. This is the gimmick followup. He can charge it, and if he fully charges it, it guardbreaks for a full combo. You must spotdodge! If you forget to spotdodge, you can still BC out of the guardbreak to avoid instantly losing the game.",
+        "- Technically there's a sixth followup where he just keeps walking forward. If he walks forward forever, you can grab him out of it, though it's risky against him doing something other than walking forward forever.",
+        "He can also do the command grabs outside of stance (and will, often). Same rule applies - if he's pointblank, you're guessing; past that, you can react. (It is a hard reaction.)",
+        "Speaking of command grabs, his reversal is his U grab. It is fully invulnerable, but also slower than most U skills, which makes it uniquely safejabbable. Poor Vaseraga. This only applies if you're actually ready to react, though. He can also go through safejumps with this, but if you react you get a full punish, so just another thing you need to be ready for.",
+        "His U shoulder charge gains full armor on frame 5. He can't mash it out of tight blockstrings or on safejumps, but if you leave a gap, or on his own minus frames, he might mash it to try and get lucky because he gets a full combo on hit. If you swing into it, you're getting hit. If you spotdodge it you can always get your maximum punish, but if you block it you have to settle for 2M > 236H~8.",
+        "You can also spotdodge the M and L shoulder charges. They are both plus when spaced, so Vaseraga will try to bully his way in with these in neutral. He can also do them to take oki midscreen; you can't spotdodge these, so just hold the frames. You can also spotdodge H charge, but it always leaves him minus, so you don't really need to.",
+        "ALWAYS BE READY FOR U FIREBALL. U fireball is a matchup-defining move. Plus on block, full combo on hit. Like U charge, Vas players WILL throw it out randomly to try and get lucky, but unlike U charge there's not really any risk for them so you'll see it much more often. Also beware that U fireball hits higher than you expect - you cannot airdash over it. You aren't necessarily plus on dodge depending on spacing and how fast you react, but dodging always leaves you in a better position than blocking (or getting hit).",
+        "His last U skill is U stomp which has a bunch of armor. If you spotdodge the first two stomps you get a full punish but it's kind of annoying so you'll need to practice it.",
+        "Airdash on block: j.L wins against everything except SSBA, which is a parry. Be ready to react to U grab.",
+        "Throwtech RPS: 2M will beat any regular button he tries to press, though if he waits he can whiff punish it. His U charge can blow up anything we press for high reward, so keep that in mind before doing anything rash while he has the 50.",
+        "Supers: Both supers can be spotdodged. His SBA is a mediocre reaction super. It can go through most tornados, but loses to stop tornado. His SSBA is also a mediocre reaction super due to its poor horizontal range, but it has a guardpoint! If you hit into it, you can cancel into spotdodge, which is great - but if you hit with something that is not spotdodge-cancellable, he'll kill you for it. This includes safejumps! You cannot safejump Vaseraga while he has SSBA."
+      ]
+    },
+    {
+      "name": "Narmaya",
+      "image": "narmaya.jpg",
+      "paragraphs": [
+        "Be careful antiairing her when she has meter because U flip will beat 2H. Can be safer to go for an air-to-air instead or just hold it. If she does U flip, react with 5L for a punish.",
+        "Try to be aware of what stance she's in. Her blue stance DP is a parry and cannot be safejumped. Her pink stance DP is 9f and punishes airdash on block. It also recovers super quickly for a DP, so it can be annoying to punish.",
+        "This is a matchup where you have to hold blockbutton - if she does the grounded sideswap attack and you're holding it you get a full punish. If she tries to sideswap with EX flip you have three options: 1) predict it and press 2H (this reaction is quite difficult), 2) react and press U DP, 3) react and press c.M, which often trades but the trade is in our favor.",
+        "When setting up EX tornado, beware that her dash special > followup slashes can hit through the tornado and punish. This trade is typically in her favor. When setting stop tornado against her on offense in the corner beware that it loses to U transient (the grounded dash teleport move).",
+        "Spotdodge U fireball. Spotdodge U transient for a full punish. Delay 5L on U flip.",
+        "66L: Goes under airdash.",
+        "Airdash on block: Blue stance DP is a parry. Pink stance DP is 9f and punishes.",
+        "Throwtech RPS: Be aware of her current stance. Pink stance is the default throwtech situation. In blue stance, her 2M crushes ours and ducks f.H, but it doesn't reach so it loses to delay 2M. Her 2U loses to our 2M at min range, wins any farther out, but it also whiffs if you wait.",
+        "Supers: SBA weirdly does not give a safejump, so don't fuzzy mash on her landing! She's plus and you'll die. SSBA is a very good reaction super. SBA can be spotdodged, SSBA cannot, but if you're close you can roll behind her, or just block if she didn't catch you during the very beginning of your dash."
+      ]
+    },
+    {
+      "name": "Soriz",
+      "image": "soriz.jpg",
+      "paragraphs": [
+        "Has great options for dealing with our airdash in 5U and H kick, so lean harder on your ground game.",
+        "He can reset pressure infinitely with his many plus specials. Delay mash on defense with 2M to keep Soriz players honest. The timing is hard, so you may need to practice. Other than that, either accept that he'll be plus often or say farewell to your bravery points.",
+        "The H rapid punches and H ground smash are both plus. The H dash punch is minus and you can safely challenge with 2M. The M rapid punch is -1, but he can frametrap with his H kick special (it's 5f for some reason) to beat any attempt to challenge so be wary - if you block the H kick you get a full punish with 2M > 236H~8.",
+        "Be ready to spotdodge U dash punch in neutral and on offense, U ground slam on defense. Be scared of teching throws when he has 50%.",
+        "Dealing with 5U in neutral: you're playing RPS in his favor. He can hold it for a variable amount of time much longer than you would expect, and the recovery isn't punishable on reaction. If you just run up and try to throw he will often cancel into f.M. You can try to space around f.M, but even if you bait it it's a difficult whiff punish, and if you press on prediction it's as likely he'll whiff punish you instead. Try to play around your ground seals so that at least if you win the interaction you can convert with sealdash to make the reward on hit worth it. If you have 100 meter, you can also super.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Can punish with H kick.",
+        "Throwtech RPS: 2M is an omnipotent throwtech button. You can walk back and whiff punish with 2M.",
+        "Supers: SBA is an okay reaction super. Beats all tornado followups except stop tornado. SBA can be spotdodged. You must spotdodge twice, or block the second hit.",
+        "His SSBA activates his install. While in install, he takes significantly reduced damage, further reduced by the number of times you swung into his 5U. It doesn't spend his meter, so he keeps his U skills, and he gets a new SSBA. While in install:",
+        "- His rapid punch gains a new followup. It guard breaks for a full combo even on block. If you get guard broken by this, you must BC! But you can avoid ever getting hit by it if you mash as soon as you see him start this move, because it loses to mash.",
+        "- Unfortunately he has a second followup that beats mash! But it's punishable on block. It sounds like you're guessing between his guard break followup and this frametrap followup, but he can't leave much of a gap when cancelling into this one, so if you slightly delay your mash you'll win every time. This leaves you vulnerable to him not cancelling into anything, but that's life.",
+        "- He gets a new SSBA. This is the really scary part of his install. This SSBA is an invincible 0f command grab super, so you cannot block, spotdodge, roll, or mash on it. You must jump or backdash it on prediction. Also means you can't really safejump him while he's in install."
+      ]
+    },
+    {
+      "name": "Zooey",
+      "image": "zooey.jpg",
+      "paragraphs": [
+        "Beware 66H (the shield charge) in neutral. It's safe if she spaces it optimally, but often you can get a f.H punish on block. Between shield charge, airspin, and U dragon, airdash generally kind of sucks in this matchup. Plan to play a more grounded game.",
+        "Looks misleading, but U dragon is punishable on spotdodge with U kick.",
+        "Spotdodge her U DP on the way down for a guaranteed close punish - if you block, you'll often get a f.H punish instead.",
+        "Try to react to EX airspin with 2H for a full punish. As of patch 2.20, it's minus on block, so even if you block it you're still in a good position. M spin is even and L spin is minus - can mash 5L on both of them, but be ready for a clash situation after M spin.",
+        "Plan to block a lot on defense while you wait for her to deplete her dragon meter. Many of her dragon moves are either plus or a spacing trap on spotdodge, so the r/r for dodging isn't great. If you see her tap charge on offense, take your turn back with 66L or try to get her off you with 236U - 2U won't reach in time to punish.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: Her 2M is an omnipotent throw tech button. Can walk back because it isn't a low, but it will often reach anyway.",
+        "Supers: Her SBA is a great antiair and her SSBA is a great reaction super. Be wary of both. Both can be spotdodged."
+      ]
+    },
+    {
+      "name": "Cagliostro",
+      "image": "cagliostro.jpg",
+      "paragraphs": [
+        "Be ready to react to teleport in neutral and on your offense. If she's in the air, keep your 2H ready. If she's on the ground be ready to 5L.",
+        "If she whiffs spear fullscreen you can punish with 214U on reaction. Cags autopilot this a lot for some reason.",
+        "On our defense, she'll often either press rock (this is plus) or M spear (this is even). Dealing with looping rock pressure on defense is very hard because you cannot mash or spotdodge it on reaction. You can spotdodge on prediction, then try and mash on the 66L pressure reset; or you can U tornado on prediction and lose to spear followup instead. If you have a seal nearby you can jump the rock on reaction to escape instead.",
+        "M spear RPS: M spear pushes you toward her and the framedata is even. If you're close enough for f.L, there is basically no RPS - press f.L and you'll at worst clash with anything she does except reversal. If you're out of range of f.L, she can delay her button to whiffpunish f.L. In this case you either need to press something slower (which loses to f.L) or delay a button (which beats f.L but can lose to something slower).",
+        "She might also try to set up EX traps in her blockstring. You can react to the flash with sweep. Even if you miss the punish, you'll destroy the traps, and she's often far enough that she can't punish on block.",
+        "Don't tech throws against this character, including fuzzy mash - if you press anything, you can lose to EX air teleport. But it whiffs on crouch block, so if you just downback, you can stand up and 5L after she reappears to full punish on reaction.",
+        "On offense, if you give her space she's likely to try to either set up U trap or teleport out. U trap is spotdodgeable on reaction. Be ready to antiair the teleport, or just don't give her space to breathe and you won't have to worry about it.",
+        "Don't spotdodge rock at fullscreen in neutral. You get punished on dodge with spear.",
+        "Cag has a lot of different air options and you'll see them all.",
+        "- Air teleport to teleport above you, or away from you. Can punish her teleporting above you with 2H. If she teleports away, there isn't a whole lot you can do safely because she can do a second option after.",
+        "- Air ult teleport drops a big castle on you and gives a full combo on counterhit. It used to be really toxic, but it got nerfed and now you don't see it that much. The main things to be aware of: it's plus on block, and it often sideswaps, so make sure you hold the block button. If you spotdodge it you get a full punish when she reappears. You can also often antiair her before she disappears.",
+        "- U air trap set puts a really really big trap on the screen. It can be spotdodged on reaction.",
+        "- She can also charge rock to airstall for a bit. If you sneak under or behind her, you get a full punish when she lands. U kick can be a decent way to do this; if she doesn't airstall, you snipe her with the kick, and if she does you slide behind her. Can also catch her with U tornado on the way down.",
+        "When she has traps near you, she gets a full combo with throw. This is the only time her offense is really threatening. There's a very scary second layer: if she has an air trap above you, she can combo off her DP. The strike/throw between these two options is horrifying and there is no great way to deal with it. Guess and get lucky.",
+        "66L: Goes under airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: Her 2M and 2U are both omnipotent throwtech buttons. Can only walk back and whiff punish if you initiate the throw spaced. If you want to be very unhinged, 2U is -3 on spotdodge.",
+        "Supers: Both SBA and SSBA are respectable reaction supers that beat all forms of tornado. SSBA can be spotdodged, SBA cannot. SBA is particularly strong in the clash situation (which she can force somewhat often with M spear)."
+      ]
+    },
+    {
+      "name": "Yuel",
+      "image": "yuel.jpg",
+      "paragraphs": [
+        "Starting with the big knowledge check: the stance. She has many options.",
+        "- A quick slash. Plus, but pushes her back a bit.",
+        "- An advancing uppercut. This is minus. When you see it, her turn is over.",
+        "- A low. This is plus, and uniquely can safejab U reversals, so think hard before you wakeup DP.",
+        "- An overhead. This is -6 and can be punished with 2M on block, or 5L if she's pointblank. It isn't reactable, so you're generally guessing between high and low. The low leads to much higher reward on hit, so favor taking the overhead. If it hits spaced and meaty (i.e. on your wakeup, outside of c.L range) it can be safe; Yuel players will often press parry after, so you can wait for an even bigger punish.",
+        "- An advancing charge that is plus when spaced and cannot be spotdodged. Very annoying.",
+        "- A parry. It beats everything except super (and waiting, of course).",
+        "- She can also hop forward to try and reset pressure, throw, or cancel stance.",
+        "The main things you're looking for to escape pressure are her minus advancing uppercut, hop forward, or overhead. Though the hop forward is very fast and difficult to react to. You can hit her out of the advancing charge with tornado or U kick.",
+        "Her non-stance pressure is also strong. She can use Foxflame (the pillar of fire) to reset pressure. The medium and heavy ones are both plus; you can mash out of the medium one, but because its visual tell is very similar to the light one it can be difficult to react to. The visual cue is that for the medium one, she slides forward a little first. If you see this slide forward, mash 2M > 236H~8. U Foxflame is no-strings-attached plus. You can BC, though she can hard read the BC by cancelling into stance parry.",
+        "Her light forward charge move leaves her -3 but spaced awkwardly. f.M will beat any of her meaningful followups here and also catch backwalk, but can lose to stance parry or the fast stance attack. Her reward off both of these is mediocre, so default to challenging with f.M. The medium and heavy variants of this special are both punishable on block. The U version is not, though she is minus. Don't spotdodge it!",
+        "Yuel players will often try to dash jump out of the corner, and often succeed. 2H can hit them even at max height, but if you miss you will eat a full punish so it can be safer to just let them get away with it. She also has an airstall off her jump. She's plus but cannot combo on hit so it isn't especially scary, and 2H can often catch it anyway, but if you want to be sure you can use 623M instead - the forward movement will catch her airstalling.",
+        "Her EX backflip is frame 1 invuln. She can and will use it to backflip out of our midscreen setups. She has three followups:",
+        "- She does a flip forward. This is plus on block.",
+        "- She does a quick low. Has irritatingly far range that will probably catch your attempts to outspace it. Low-profiles attempts to hit her out of the plus-on-block followup. At max range it can be plus, but most often it will be -4 and can be punished with throw.",
+        "- She cancels into stance. Not really punishable, but gives up a lot of screen space.",
+        "If you spotdodge as soon as you see her backflip, you'll be plus against both of her forward-advancing followups.",
+        "The other variants are not invuln frame 1 so you'll see them less. Note that the low followup from the medium version is significantly more minus than usual and can be punished with a real button instead of throw (usually 5L). The U version can be spotdodged for a punish, but be careful because you get punished for spotdodging her other U skill.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Punished by 9f DP.",
+        "Throwtech RPS: 2M is an omnipotent throwtech button, but you can walk back to whiff punish with 2M.",
+        "Supers: SBA will beat all tornado followups except stop tornado. SSBA has no horizontal range but cannot be spotdodged."
+      ]
+    },
+    {
+      "name": "Anre",
+      "image": "anre.jpg",
+      "paragraphs": [
+        "In traditional Granblue zoner fashion, Anre has access to a billion plus frames that make defense obnoxious. He gets some bonus points that make this matchup quite annoying for us. Let's go over his specials one at a time.",
+        "First, spear laser. This is his \"default\" projectile. It has bonus priority and will beat tornado straight up instead of trading, so don't bother with stop tornado in this matchup.",
+        "- The light one fires a laser forward. Minus on block, can be rolled, though your frame advantage is actually better if you just block it instead.",
+        "- The medium one is very slow, but it's plus on block. It can also be rolled, though unless you roll it earlier than you expect you won't really be plus. Can be better to mash. Or dodge. Dodging is still better than giving him giant plus frames for free.",
+        "- The heavy one is fast and plus on block. You are minus on dodge. Basically, he gets free plusframes with no counterplay.",
+        "Second, spear spin. This is a pseudo-stance move with various followups. On defense, you'll only really see EX spear spin for the light followup.",
+        "- The medium followup is a spear slam. This is minus, and pointblank it's punishable with 2M.",
+        "- The heavy followup hops on his spear like a surfboard. It's very punishable on block. He only really uses it for combos, though if he misinputs it be ready to punish him.",
+        "- The U followup is a dash. He might use this to try to skip neutral sometimes, but it's reactable, so you can kill him for it if you're ready.",
+        "- The light followup fires a spear. Out of EX spear spin, this is plus, and it's also a true blockstring. Basically, he gets free plusframes with no counterplay.",
+        "Third, other... spear spin? The one where anre himself rotates with the spear.",
+        "- On the ground, light, medium, and heavy are all minus. In fact, heavy is punishable on block.",
+        "- In the air, light is minus. Medium is very slow but if you let him do it he's plus. Heavy is fast and plus. You'll see the heavy air spin often as a throwbait; you can beat it with fuzzy mash 5M, though 5M is 7f so it's weaker to traditional stagger pressure.",
+        "- In the air, the U variant is minus.",
+        "- On the ground, the U variant is plus, and he can true blockstring into it. Basically, he gets free plusframes with no counterplay.",
+        "Fourth, he has a parry reversal. The frustrating part of this move is that it wallbounces on hit. So, this character is plus forever, and then when he stops being plus, he can press parry, and if you swing into it he gets a full combo. Because he has a parry, we can't safejump him on offense either. His U parry is also a bit of a knowledge check - you have to dodge the projectile followup he does then punish. If you block the projectile, you're minus.",
+        "He can also parry in response to projectiles to dash in and skip neutral. His M parry is safe on block from far ranges, but he is always minus, so be ready to take your turn.",
+        "He also has a regular parry. The timing window is quite small. You'll mostly see him do the air variant to try and beat your antiairs. You can actually special cancel if you swing into it - so if you 2H him and he parries, you can cancel into DP and he has to parry again or he gets hit. Unfortunately this costs us 50%. You can cancel into M DP instead; this will lose to divekick, but the reward for him on hit isn't very high so it's okay to just accept losing to divekick because winning is much more rewarding for us than it is for him. Alternatively you can wait for him to land; if he pressed air parry, he's punishable on landing. Basically, air parry is RPS that is in your favor. Once you've represented that you can deal with it you'll see it a lot less.",
+        "In this matchup, you should react to the U skill flash with roll. He does not have any U skills that punish roll, but he does have one that punishes spotdodge.",
+        "66L: Goes under airdash.",
+        "Airdash on block: Has a parry.",
+        "Throwtech RPS: His f.M and f.H are so slow that they unintuitively beat both f.H and 2M. If you press f.M instead of f.H, throwtech RPS in this matchup is regular.",
+        "Supers: SBA is a good reaction super. SSBA is quite slow; it will beat tornado, but isn't a great reaction against other things, so you may not see it as much on reaction. Both can be spotdodged. Spotdodge SBA twice in a row as quickly as possible. Spotdodge SSBA only once; the hitbox disappears much much earlier than the visual.",
+        "He also has an install. He summons seven bits that automatically follow up some of his buttons on hit or block. He has two main ways to abuse this in neutral.",
+        "1) Sweep. When spaced, his sweep becomes plus on block during install and leads to a combo on hit. Try not to exist at the plus sweep spacing.",
+        "2) Spear dive. This is always plus on block during install. It's also fairly slow and has a shallow angle, so you can antiair it somewhat reliably, or just back off and make him whiff."
+      ]
+    },
+    {
+      "name": "Eustace",
+      "image": "eustace.jpg",
+      "paragraphs": [
+        "Airdash is really good against his fireball but don't recklessly press it while he has bouncyball cooldown.",
+        "Can spotdodge the jumpback-and-shoot special he does out of his dash on reaction and punish with f.M.",
+        "All grenades can be rolled on prediction. Not on reaction - you can be very minus in his face if you wait to react. Also bouncy ball punishes prediction roll for a full combo so be wary.",
+        "However it is still very worth spotdodging EX grenade on reaction - you're minus, but not punishable. Eustace is a much scarier character if you let him put EX grenade on you, so it's worth avoiding just for that. Make sure you're reacting to the yellow flash and not the grenade windup in general because yellow grenade beats spotdodge.",
+        "When he has EX grenade on you, he gets a full combo out of throw. He can also throwbait with j.U. Fuzzy mash 5L and you can sometimes catch both options.",
+        "EX fireball and EX bouncyball are both plus and he can true blockstring into them from autocombo, so if he so chooses you might be blocking for awhile. The charged (non-EX) variants of both are also plus but can be spotdodged.",
+        "Hardest part of the matchup is when he loops bouncyball pressure in the corner. Three solutions:",
+        "- Uncharged bouncy ball is approximately even on block. You can challenge, but be careful of him backing off and whiff-punishing with button or U gun.",
+        "- Charged bouncy ball can be spotdodged. You're minus, but can still challenge a 66L reset with 2M.",
+        "- Charged bouncy ball can also be swept with 2U. You will trade with the ball and knock Eustace down. You don't get a sideswap off this knockdown.",
+        "U bouncy balls can be spotdodged but the timing is spacing-dependent. If you are point-blank, it cannot be spotdodged. If you're half a screen away, spotdodge early. If you're farther than that, you must delay the spotdodge. Successfully dodging it from halfscreen is a punish with U kick.",
+        "U gun can also be spotdodged. Roll twice in a row for the punish. Differentiating between U bouncy balls and U gun in time to dodge is pretty much impossible, so if you don't have a good sense for which one your opponent is pressing it's safer to block.",
+        "He broadly has four mixups he'll go for out of U grenade:",
+        "- Triple attack high/low. You can fuzzy block this so it isn't real mix, but it's an execution check that's easy to fail. You can try to dodge the execution check with BC, but if he spotdodges you'll die.",
+        "- Delay 66M (overhead dash attack). He needs to delay it to time with the grenade detonation, so you know when you should be looking out for it.",
+        "- Throw. He's plus on throw tech because the grenade covers him.",
+        "- j.U throw bait. Gives a full combo on hit, but can lose to fuzzy mash 5L.",
+        "He can also just block and wait for us to reversal. If he gets hit, the grenade disappears, but on block it stays so don't assume you're out just because he let you mash. If you have seals up, mash > 5U can get you out of the corner before the grenade detonates.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: 2M is an omnipotent throwtech button. If you're the one to initiate the throw, you can walk back and whiff punish with 2M.",
+        "Supers: SBA is a decent reaction super. If you stop tornado right in front of you, it will usually beat it. SSBA is an excellent antiair so be wary of jumping around your seals too much when he has it. SBA can be spotdodged, SSBA cannot - if he catches you during dash startup, you need to be close enough to roll behind him, or you're hit."
+      ]
+    },
+    {
+      "name": "Seox",
+      "image": "seox.jpg",
+      "paragraphs": [
+        "His wallcling lunge attack is completely projectile-invulnerable and plus on block, and gives a full combo on hit. Do not press stop tornado in this matchup. If you spotdodge it early enough you can punish. If you spotdodge too late you'll actually be minus so beware. The U variant is invulnerable from frame 6 so you might see him try to press it as a reversal. Spotdodge it too.",
+        "His rekka has four followups.",
+        "- Up kick. Doesn't give him anything, but it's safe.",
+        "- Claw slam. Frametraps and wallbounces, but it's punishable on block so you'll mostly only see it in combos.",
+        "- Overhead kick. Does not need to be blocked high despite the visual. This one is plus; you're expected to mash him out of it. There's a fuzzy mash timing that beats this but doesn't lose to claw slam. Worth learning.",
+        "- Backdash. Not safe, but not punishable on reaction either; if you want to hard call it out, you can punish with 66L.",
+        "- He can also just not do a followup and stop early. He is punishable, but the threat of a followup can scare you out of actually hitting the punish.",
+        "You'll note that there's no real mix here. Fuzzy mashing 5L will at worst leave you safe, though if he backdashes you won't be favored either.",
+        "The most annoying part of the matchup is his EX fireball. It's fast and works as a decent throwbait. On defense/in blockstrings, you can roll it on prediction for a full punish. But the projectile is very slow and has a very awkward angle, so it's difficult to deal with in neutral. Generally, expect to give up screenspace to this move a lot.",
+        "He has a second projectile where he sends a shadow clone of himself forward. Two variants; in the first variant, it's just a projectile. In the second variant, he actually sends himself forward, and will teleport to the clone on block or on hit. This is plus on block, and off some setups he can sideswap with it, so remember to hold the block button. If he sends himself forward, you can hit him out of it with any button or your own projectile.",
+        "He also has a parry and cannot be safely safejumped. None of his reversals are safe to grab, though his ultimate wallcling lunge can kill you if you don't grab early enough so going for grab can be a little spooky in this matchup.",
+        "The most common U skill you'll see from him is U rekka, which isn't a rekka at all. It is fast and advances very far so Seox players like to throw it out randomly. However it doesn't lead to exceptional reward on hit - just some damage and a hard knockdown, no combo - and it's minus on block, so it isn't as matchup-warping as many other similar U skills. If you block it while you're in the corner you can punish with throw.",
+        "His U air special is a divekick. It's plus on block, but quite slow and very punishable on spotdodge.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Has a parry.",
+        "Throwtech RPS: His 2M and 2U will both beat our 2M/f.H if pressed instantly, but neither button reaches, so they both lose to delay 2M.",
+        "Supers: His SBA is an okay reaction super. It will beat all tornado followups if cancelled into from about f.M range, but the horizontal is bad so it whiffs if we cancel from f.H instead. His SSBA is an excellent reaction super. Both can be spotdodged."
+      ]
+    },
+    {
+      "name": "Vira",
+      "image": "vira.jpg",
+      "paragraphs": [
+        "Vira has a pretty slow command grab that activates her install on hit. She really wants to activate install (especially for free!) so she will go for it a lot. Some common places to watch out for:",
+        "- Autocombo -> command grab, this isn't a true combo and you can backdash out of it for a full punish",
+        "- Grab -> summon luminiera -> command grab, can be ambiguous whether luminiera or vira hits first, appropriate response is to mash",
+        "- Air reset -> command grab, you're high in the air so you don't see the startup of the command grab",
+        "She can also just randomly throw it out in neutral or in blockstrings. Always be ready.",
+        "If you get command grabbed, she can jump after. When she lands from this jump, she is plus! It is a plus empty jump. Do not fuzzy mash on the landing. She can also do her weird install double jump to try to threaten high, but this is reactable with 2H.",
+        "On defense, she has a charging spear slam sort of thing that gives her access to infinite pressure resets. It is somewhat slow and very vulnerable to 5L mash, but if you aren't ready for it she can run her turn for a very long time off this. You'll also see Vira players try to press it in neutral or off very far pokes sometimes as a way to get in for \"free.\" In install, Vira gets a full combo on counterhit, so don't screw up the mash.",
+        "Antiairing Vira once she enters install can be difficult because she gains the ability to airstall and mix up her air movement. Some things to note: once she enters our 2H range, she can no longer bait the 2H and also punish. Additionally, once she performs the airdash she is committed! You can absolutely 2H the airdash.",
+        "Dealing with luminiera setplay: you'll see Vira set this up in three main situations.",
+        "- Corner knockdown. This is strike/throw; she can bait throw with something like jump, or she can do a triple attack high/low \"mixup\" but you can always fuzzy guard it.",
+        "- Midscreen knockdown. This is mostly just to take oki. She can hit you with her dashing low on wakeup for a combo, so make sure you're blocking low. She can also throwbait/block button check you by rolling through or jumping over you, so make sure you're holding the block button!",
+        "- Midscreen neutral. Luminiera whiffs in close range and disappears on block, so if you quickly close the gap you can avoid it, but she can cover the set with DP so it can be difficult to challenge.",
+        "You can punish the set up in neutral with U kick, but it's a somewhat difficult reaction.",
+        "Vira has a bunch of very good U skills.",
+        "- U stabs. This is plus and cannot be dodged! If she isn't in install, you can potentially challenge after depending how far she does it. In install it leaves her pointblank and you absolutely cannot challenge. It also gives a wallbounce in the corner, so she will absolutely throw it out to try and blow you up for challenging on defense. If she's standing at the awkward range where your buttons don't reach, U tornado can be a good way to try and create space.",
+        "- U Luminiera. Fairly quick fullscreen hitscan move, similar to Cag's U spear. Most often you'll see it on crouching confirm because it combos into commandgrab. This is why you would like to avoid getting hit crouching if possible.",
+        "- U charge. This move is a knowledge check! It hits low, then high. Block low, then block high! It's -6 so you get a full punish with 2M on block. Regular Vira can only combo on counterhit and the move only extends a bit past halfscreen, so it isn't that bad to deal with. Install Vira can combo on any hit and it now extends fullscreen. Vira players will absolutely throw this out to try and get lucky. You must be ready!",
+        "66L: Goes under airdash.",
+        "Airdash on block: Punished by 9f DP.",
+        "Throwtech RPS: Her sweep is an omnipotent throwtech button. If you initiate the throw pointblank, you can't even walk back - proximity guard kicks in and you get hit low. If you initiate it spaced you can whiffpunish with delay 2M.",
+        "Supers: Her pre-install SBA activates her install. It leads to a combo on hit, but is very punishable on block. Get used to safejabbing her on wakeup to play around it. You can spotdodge it if she catches you in a dash, but you'll miss the punish so block it if possible. It hits all around her, so she can and will attempt to use it as an antiair occasionally to blow up dash patterns. If you bait it like this, you can usually punish with U kick."
+      ]
+    },
+    {
+      "name": "Beelzebub",
+      "image": "beelzebub.jpg",
+      "paragraphs": [
+        "hopeless",
+        "He has three fireball variants. All can be charged for more plus frames. If he charges on offense, you can hit him out of it, probably with sweep. But if he releases you die instead so it's risky. Alternatively if you roll fireball at the perfect time you can get a punish, but the timing is very difficult. In neutral, all forms of fireball (except U fireball) can be reacted to with our U fireball > U kick for a full combo. It is worth saving meter for this. The matchup becomes much less miserable when we have the 75 to threaten this.",
+        "Divekick is also very difficult for Grimnir to deal with. In neutral, you can sometimes beat it with M DP, especially when he's high. If you have super, you can use it to close out the round, but it might not be worth pressing if it doesn't kill. At more horizontal angles or on defense, it's very very difficult for Grimnir to deal with. It's a very strong throwbait and counterpoke for him.",
+        "Fuzzy mash 5L can sometimes beat the throwbait. There isn't a great way to beat counterpoke divekick, though - it's typically too horizontal for M DP, and 2H clearly doesn't win. U divekick can be spotdodged on reaction for a full punish; the other variants generally leave him plus on spotdodge. It's also a very strong option for him on throwtech.",
+        "His weird big swing special is minus in every form, but it leaves him awkwardly spaced where he can stuff attempts to challenge. It's also a multihit low. Beelzebub players like to do two hits of autocombo, then either the autocombo high or the multihit low. It can't be fuzzy blocked (if you move high, you get clipped for a full combo) so you need to actively react to autocombo high (or just take it).",
+        "His vacuum orb is plus on block and eats (non-ultimate) projectiles. You can roll behind him for a punish. The light and heavy variants suck early. The medium variant has a suck delay, so if you roll too early you can die. You can also U tornado on reaction if you don't want to worry about screwing up the timing.",
+        "The ultimate vacuum orb is unblockable. You must spotdodge it. If you're in the air you're hit.",
+        "He has a teleport. If you leave him enough corner space he might try to teleport out. It's punishable, but it's a reaction check.",
+        "His M DP is very slow. Sounds like a downside and sometimes it is, but the big delay can catch a lot of autopilot offense that would bait regular DPs (especially safejumps) so you need to actively watch for it. As an upside, moves that would normally be punished by traditional DPs are often safe to his M DP. His H and U DPs are more traditional.",
+        "If you block a projectile fullscreen, he can unblockable you with ultimate vacuum orb. You can avoid this fate by bravecountering out of the projectile blockstun (the BC iframes will save you), or by spotdodging the projectile. However if you spotdodge the projectile, he gets a punish with his other fullscreen ult skill. For this reason, avoid sitting at fullscreen in this matchup - if you're 75% of the screen or closer and roll toward him to avoid fireballs, he can't set this up on you. If you have the 50% meter for U fireball you can lock down this option for him entirely.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Regular. Beware that he can command grab super, and it wins unless you're holding up when you land. Backdash is not fast enough.",
+        "Throwtech RPS: 2M is an omnipotent throwtech button. Can walk back and whiff punish with 2M.",
+        "Supers: His SBA and SSBA are both very good reaction supers. Both can be spotdodged.",
+        "He also has a command grab super for some reason. It's 0f post-flash like almost every other command grab super in this game, so if you're on the ground in front of him when you see the animation you're already dead."
+      ]
+    },
+    {
+      "name": "Belial",
+      "image": "belial.jpg",
+      "paragraphs": [
+        "His 2M is large, plus, and hits low. You will see it a lot. Not really any specific counterplay to note here - if he so chooses he can reset pressure forever, so get a good read on your opponent's offensive habits and pick a good place to mash/BC.",
+        "EX fireball is more interactive than it looks. He has three main options.",
+        "1) No followup. Plus when spaced but you can spotdodge. -2 pointblank but it's a true blockstring so he gets the chance to perform a followup for free.",
+        "2) In-place followup. This is very very plus, even pointblank. If he is pointblank you can hit him out of it with 2M. If he is a little farther, you can trade with sweep (this trade is massively in our favor).",
+        "3) The other followups drag the projectile upward. They are both minus.",
+        "He can also reset pressure with the forward followup of his medium projectile. You can roll this on prediction (you're probably minus on reaction), mash, or U tornado to beat it.",
+        "His U fireball is very very plus and gives a full combo on hit, but it's easily spotdodged if you aren't already committed to something. He especially likes it on defense because it's quite fast and doesn't extend a hurtbox, so watch for it when he's halfscreen or so in the corner.",
+        "His U lunging hitgrab is plus on block, can't be spotdodged, and does a lot of chip. You'll see it a lot especially when he's spaced during corner pressure, to try and beat you mashing out. If he tries to do it off something that is only slightly plus, or minus, you can try to hit him out of it with f.M on prediction, but it's risky.",
+        "He has a pseudo-parry where he swaggers toward you with his arms out. In this matchup Belials will mostly look for it against fireball because it has the most recovery. If you hit into him (or your projectile hits into him) he'll teleport above you and come down with a stomp. If you do NOT hit into him, it has a lengthy recovery animation where you get your nastiest punish. If you DO hit into him but recover in time to block, the stomp is -4 and you can punish with throw. You can also 2H it but 2H tends to lose so only do it if you can press very early.",
+        "He has a command grab. All variants are reactable. The H one is the fastest and the one you'll see the most. M is so disastrously slow that if you get hit by it you should just set the controller down, because it clearly wouldn't make a difference at that point. The U grab disguises itself as his pseudo-parry. If you hit into him, he'll do the parry stomp followup (which is still -4 on block). But if he gets close he'll scoop you. You can tell which one it is because it takes away the 50% meter instantly.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Regular. He can 5U, but it's trivial to react and block for a throw punish.",
+        "Throwtech RPS: 2M is an omnipotent throwtech button. On offense, you can walk back and whiff punish with 2M.",
+        "Supers: SSBA is a decent reaction super that reaches about halfscreen and beats all forms of fireball. SBA is terrible and loses consistently. SSBA can be spotdodged. SBA cannot; if he catches you in dash, you need to roll behind him."
+      ]
+    },
+    {
+      "name": "Avatar Belial",
+      "image": "avatarbelial.jpg",
+      "paragraphs": [
+        "This character will test your reactions.",
+        "We lose neutral against Avatar Belial. His fan-of-spears projectile is very very good - it hits everywhere in front of him (including the air), and it has truly no cooldown, so Grimnir's air actions are effectively sealed. It can be rolled, though the framedata after depends on how early you roll it. Generally if you do this, you will gradually push him toward the corner, then at some point he will decide to go into the air or run in. Going into the air is reactable. Running in isn't, so I think this is the most common way you'll see neutral end (unfortunately in his favor).",
+        "When you're stuck in the corner, he is fundamentally taking plus frames with one of two options.",
+        "1) Rockslide. This is plus for him. He gets to reset pressure with 66L. You can spotdodge it, and then he is minus. However, if he does charged laser instead, you die for the spotdodge! You can react to laser with sweep but it frequently won't knock down from the spacing he does it (and you're minus on hit). Still better than letting him press it for free. Alternatively, uncharged laser has recovery frames and you can take your turn back with 66L. Charged laser does not have recovery frames and you cannot challenge safely after it finishes.",
+        "2) Flight. He has many options out of flight.",
+        "- Divekick. Plus on block. Cannot be dealt with on reaction. You can spotdodge or delay 2H on prediction but his reward for calling this out is typically the round. Generally, it's safest to just let him take the plus frames with divekick, maybe BC if you're feeling it, and instead focus your energy on dealing with his other options.",
+        "- Grab. When you see his hand flash, he is going for the command grab. Backdash it on reaction - you often won't get the punish if you jump. Only the EX one (where his whole body glows red) will lead to a full combo on hit, so even if you fail the reaction check against the non-red variants it's not a big deal. You'll sometimes see him try to catch you sleeping with a mid-combo EX command grab reset if the combo he's doing won't be enough to kill. Pay attention even when he's hitting you.",
+        "- Laser. He can fire the laser at a fixed angle, or hold the button to do a laser sweep. His eye glows before firing the laser which can be a little bit annoying because it looks kind of like the command grab tell. If you spotdodge the laser sweep, you get a full punish anywhere on screen with U kick.",
+        "- Stomp. His fastest option, which he does when he wants to cancel flight. He can also safejump with it. If you're below him, it's plus on block and leads to a very high damage crouching confirm on hit. If he cancels on offense but you aren't right below him, you can take your turn back with 66L, though it's a tough reaction. If he cancels flight in neutral with this, you can kill him with U kick. He'll also use this as a throwbait sometimes - you can sometimes catch him out of the startup with fuzzy mash 5L, but I wouldn't recommend trying to react with 2H because it will frequently lose. Think carefully before teching throws because, again, his reward on hit is massive.",
+        "Dealing with flight: I already noted the \"default\" counterplay - let him get away with divekick, focus on reacting to the rest. If he's close enough, you can also spend the meter to DP or super him. If he presses it in neutral to try and get away from you rolling his fireball, you can often run forward and M DP for a full combo.",
+        "Dealing with his U skills: don't spotdodge in reaction to the ult skill flash. If you spotdodge his U rekka, you die. You can roll the U projectile but you need to wait long enough to confirm that it isn't U rekka first. There is no good counterplay to U rekka - it is plus on block and cannot be spotdodged. You can technically hit him out of it, but the timing is too difficult to try in a real match. Your safest option is to DP/super on reaction.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Punished by 9f DP.",
+        "Throwtech RPS: Weirder than normal. His sweep is 10f but beats both f.H and 2M and cannot be backwalked due to proximity guard. However, it loses to our 9f f.M! f.M is usually a pretty bad throwtech option, but it can be good here if the abel player is overrelying on sweep on throwtech.",
+        "Supers: SBA can be spotdodged. It is a good reaction super with a strong antiair hitbox and a lot of iframes, so if you're committed to something it'll probably win.",
+        "SSBA is a 0f command grab super. This game really likes these for some reason. Unusually, it is slow enough that if you jump, you can wait until you land and still get a full punish. If you press j.H on the way down you can get clipped by the followup hitbox, so wait until you land. If you're in the corner you can also backdash it, but midscreen the followup hitbox will kill you.",
+        "Abel players are reset addicts and will often try to sneak this in after something that looks like a combo drop, e.g. whiffed DP. The only reason to play this character is to do long combos, so always assume that Abel players have them on lock. It is never a combo drop! It is a setup! Don't fall for it! Of course he can also just run up and grab you. Sometimes you're going to get scooped, sad reality."
+      ]
+    },
+    {
+      "name": "Anila",
+      "image": "anila.jpg",
+      "paragraphs": [
+        "Don't try to check her running up, 66H always wins. Don't spotdodge her U skills because U sheep charge will kill you.",
+        "You cannot roll anything she does. The non-ultimate sheep projectiles are spotdodgeable on defense, but you don't get much reward. Framedata ranges from about -2 to +2.",
+        "Her light sheep ride comes out quickly and isn't worth spotdodging. Her medium sheep ride has a fat delay and leaves her +2, but if you spotdodge it correctly you get a full punish. The delay for the spotdodge is somewhat unintuitive and worth practicing. The EX sheep ride is fully punishable on block with f.H.",
+        "She has a followup from sheep ride where she hops off it and throws it as a projectile. If you spotdodge these correctly, she also dies. If she is more than half screen away or so the timing for dodging is the same whether she hops off or not so you don't need to specifically worry about it. If she is close to you in the corner, she can actually punish your spotdodge on reaction. In this case, your only recourse to avoid giving her plus frames is to mash 2M before the charge reaches you. Otherwise, she's plus and you gotta hold it.",
+        "She has a commandjump that can often hop behind you, both in neutral and to escape the corner. It is 2Hable, but can be a pretty difficult reaction. If you have the meter and don't want to worry, you can DP instead. Super can also win, but if she crosses you up it can also go the wrong way.",
+        "The ultimate commandjump goes very far and is plus on block. You can punish on dodge.",
+        "U sheep projectile fires three sheep. If you don't have seals up it's honestly pretty hard to do anything about it. Anila's recovery on this move is very high, so if you DO have seals up, you can tk airdash and punish. It's very difficult to spotdodge from anywhere other than nearly fullscreen, so you'll see Anilas pull it out especially when they're playing for chip. At close range, you need to spotdodge twice almost instantly. It is a difficult reaction.",
+        "Her 5U (the move where she spins her spear in a circle four times) is a 50/50. If she does the followup, you can punish with 2M for a full combo. If she does not do the followup, she is -2, but she can keep her turn by assuming you will wait for the followup. She doesn't really get much reward off this on hit (except corner carry) so favor mashing on it in general.",
+        "66L: Goes under airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: 2M is an omnipotent throwtech button. Walk back and 2M to whiff punish.",
+        "Supers: Her SBA and SSBA are both excellent reaction supers - be careful of pressing tornado in pressure when she has 100 meter. Both can be spotdodged."
+      ]
+    },
+    {
+      "name": "Siegfried",
+      "image": "siegfried.jpg",
+      "paragraphs": [
+        "Another matchup where his buttons are so much better that it can be tough to find a way in (or out). Fortunately he doesn't have a 9f DP so he has to focus to play around airdash. Don't jump or press tornado when he has 100 meter because he has one of the best reaction supers in the game.",
+        "When you see him enter stance, block high. He doesn't have a low option, but he does have an option that whiffs on crouchers and is very difficult to react to, so taking your turn back after can be difficult if you don't standblock it. Roll and mash beat the majority of his stance options and are good to represent to scare them. Also, the big double slash is unsafe if we block it from close range in the corner - many Siegfrieds will end blockstrings with this, maybe not aware that Grimnir can punish with 2M.",
+        "H fireball can be spotdodged, but M fireball is pretty difficult to deal with on defense. Safest escape for us is U fireball.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: 2M is another omnipotent throw tech button. Either walk back and delay 2M, or hold it.",
+        "Supers: SBA is one of the best reaction supers in the game and completely warps the matchup whenever he has it. Can't really jump or press any specials while he's at 100. SSBA is also decent but loses to stop tornado. Both can be spotdodged. Siegfrieds that are really looking to let it rip will sometimes get baited by canceling a normal into single seal - you can dodge in time for a full punish.",
+        "Also has an install. It costs him health to activate, but increases his damage a bit and gives him health restore on hit or block. Still not very good, but you'll actually see this install sometimes because it can help Siegfried avoid checkmate chip-death situations."
+      ]
+    },
+    {
+      "name": "Grimnir",
+      "image": "grimnir.jpg",
+      "paragraphs": [
+        "Know your seal counterplay.",
+        "- If Grimnir is in the air, crouch and hold block button.",
+        "- You can crouch airdash. If he airdashes above you, stand up and press 5L to punish him.",
+        "- If you block airdash, you can either punish with U DP or clash with 5L, but the timing is difficult so make sure to practice it.",
+        "- You can try to preemptively stuff him with j.L, air ball, or spin, though all these options carry more risk than just crouching the airdash.",
+        "- If he seal dashes directly into you, he's -2.",
+        "- Don't 2H while there is a seal above you because he can kill you for it.",
+        "- If he tries to set up 22H raw in neutral, punish him with U kick.",
+        "- If he places stop tornado, you can either respond by putting up seals, or hit him with U tornado.",
+        "Other than that, know your setups.",
+        "- Fuzzy mash 5L on his safejumps. Don't let Grimnir players get away with fake empty jumps.",
+        "- If you see him do any type of forward or up-forward seal dash while you're in the corner, you can walk forward to cornerswap. Note that if he dashes straight up, he can punish you for this, so only walk forward if you see him do a forward dash.",
+        "- You can sweep the tornado-in-front setup to knock him out of most of his options, though he can hard call it out if you're predictable. You can also press small delay 5L to put him in hit/blockstun long enough to escape the threat of the throw combo. This is much harder for him to call out.",
+        "- The camera 50/50 is reactable. Practice reacting to it in training mode. Block high, react low. You have about 20f to react once you see the top of Grimnir's head.",
+        "- When in doubt, take the throw. Not like he can fuzzy you. :(",
+        "66L: Loses to airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: Default.",
+        "Supers: SBA is a decent reaction super. The super itself is a projectile and will eat other projectiles, but if you're late on the reaction, the projectile can sneak behind the tornado hitbox and hit Grimnir out of the super, so it isn't super reliable. It has a very good antiair hitbox, though Grimnir has many ways to bait it with seals in the mirror. It can be spotdodged pointblank, but from above halfscreen away the tornado will linger long enough to catch you.",
+        "SSBA is a good reaction super that travels a little over half screen and beats all projectiles. If you see a Grim ignorantly pressing tornado you can kill him with this. Can be spotdodged.",
+        "Grimnir also has an install. During install, Grimnir gets six free seal dashes anywhere on screen.",
+        "- Grimnir cannot frametrap install dash into install dash like he can with regular seal dashes; he must wait for the recovery of his current seal dash before he initiates another install dash.",
+        "- If Grimnir is standing on a seal, the seal will be spent instead of his install juice.",
+        "- Install juice drains very slowly over time, so if you hold onto it for long enough you might only get five dashes.",
+        "- You have a very severe meter penalty while in install. If you're in install for awhile, you might build enough for a raging strike > raging chain by the end, but you definitely won't build enough for a U skill.",
+        "- Install does not give you back a BP on activation."
+      ]
+    },
+    {
+      "name": "Nier",
+      "image": "nier.jpg",
+      "paragraphs": [
+        "Very unique matchup. When Nier has the puppet, she has access to a lot of plus frames and a very strong offensive game. But the puppet costs stocks, and when she unsummons the puppet or it gets hit, it goes away until the stocks recharge to full, during which she has basically no offense, combo potential, or special moves. Very off-and-on character.",
+        "The puppet is a knowledge check. She can queue up a series of puppet commands and they will execute consecutively. If she queues up a bunch of specials in a row, you can actually pay attention to her card to know which specials she's doing, though knowing which specials doesn't make quite as much of a difference as you might expect. Know your mash points. She has four different types of puppet special.",
+        "- She sends the puppet forward.",
+        "- The puppet does a flurry of slashes.",
+        "- The puppet does a fast uppercut.",
+        "Generally, each special has a fast variant which you can mash after and a slow variant which you cannot mash after (though you can mash the slow variants before they become active). However, she can frametrap after the fast variants with the fast uppercut special. If you get hit by this frametrap it's a full combo, so challenging carries inherent risk.",
+        "If you see her do fast special > uppercut, you can hit the puppet with 5L to get it out of there; there's no followup she can do that frametraps after the fast uppercut. However! If it's late enough in the string or off any of the very delayed variants of her specials, Nier can recover in time to hit you out of your button here. In this case you don't really have any choice but to hold the plus frames.",
+        "Also, her rapid slash followup is always plus and you can never mash after it, even the fast variant.",
+        "She can throw the puppet while in the air. It flies forward then falls down on you. She can frametrap with the fast uppercut here just like any other puppet special, but it's quite slow, so you can easily approach her and get behind the puppet. If you have 50%, you can also U kick for a full punish. She has landing recovery, so you don't need to hit antiair, making the timing pretty easy.",
+        "There is an option that beats EVERY puppet followup: brave counter. Brave counter is a nightmare for Nier. You get out of puppet pressure for free (well, it's not free at all actually, but y'know), and if she's in the middle of inputting a followup you can even get a punish for it. Note that if the puppet is spaced a bit away from you, BC whiffs and you get punished, so make sure to only press when the puppet is on top of you.",
+        "In general, do not spotdodge puppet pressure. You're pretty much always minus on dodge and you will die.",
+        "Nier has a very unique dash attack. It sideswitches AND hits overhead. Obviously, she can combo out of this off many setups. You must be ready to block it. Hold the block button, stand up, block. She can also corner steal with it, so don't assume you're safe just because there's a wall behind you. The puppet followup can make her plus on block, but if you BC her she's now stuck in the corner with no death so it's risky for her. She might also throw it out when you're one hit from death to try and steal the round. If you block it raw like this, you get a full punish with 5L.",
+        "Her U skills all make her puppet invulnerable on startup, meaning you can't hit it. She cannot cancel into U skills from other puppet specials! They must be the start for a puppet string.",
+        "- U rapid slashes. Giga-plus and BC safe, lets Nier do pretty much anything she wants to you.",
+        "- U spin/charge. The puppet spins three times while advancing. The puppet is invulnerable for the whole duration, so Nier will throw this out in neutral sometimes. It is easy to roll on reaction. If you block it, she gets to start her turn, so definitely try to roll it.",
+        "- U claw rake. Fast, and has more range than you would expect. This is a strong defensive option for Nier if you give her enough space. In particular, stopping tornado in front of her in the corner is futile because you will get full punished by this move. You can spotdodge it, but you're minus so be careful when trying to take your turn back. Spotdodging is still preferable to blocking it.",
+        "- U uppercut. This is her reversal. If you block it she dies. Note that it is a parry, so it beats safejumps.",
+        "66L: Goes under airdash.",
+        "Airdash on block: U skill and SSBA both parry.",
+        "Throwtech RPS: Her sweep is slow and will beat both 2M and f.H, but it loses to f.M. Otherwise regular.",
+        "Supers: Her SBA summons a giant pillar on top of the puppet, or next to Nier if puppet isn't on screen yet. Despite how it looks it can be spotdodged. It has a solid antiair hitbox so you might see it sometimes as an antiair super, but the horizontal range is quite bad, so unless the puppet is already on top of you she probably won't try to use it as a reaction super.",
+        "Her SSBA is a frame 1 parry. It parries all strikes (including safejumps), but loses to throws and projectiles. It has fewer active frames than it looks.",
+        "Also has an install. It supercharges the rate at which she recharges her death stocks in exchange for health. It looks sick, but it isn't very good, so sadly you won't see it very much."
+      ]
+    },
+    {
+      "name": "Lucilius",
+      "image": "lucilius.jpg",
+      "paragraphs": [
+        "Lucilius's gimmick is that his cooldowns start out disastrously long, but over the course of the round he'll build up \"blade levels\" to a maximum of 5 that progressively shorten the cooldowns. At blade level 5 he also gains a new combo route out of his lunging hitgrab special that kills you if it hits.",
+        "Starting with the big knowledge check in this matchup: the teleport. Three variants.",
+        "- Light teleport is sort of like an empty jump. No followup. It is still punishable if you mash!",
+        "- Medium teleport puts out a hitbox shortly after it arrives. The followup is minus on block. However, on counterhit it wallbounces for a full combo in the corner.",
+        "- Heavy teleport warps him into the air and he smashes down into the ground for a full combo on hit anywhere on screen. If you 2H him, he dies.",
+        "There is an OS you can do with 66L that will beat all three of these teleports for a full punish if you press it shortly after he disappears. It will punish the light teleport, counterhit the medium one before its hitbox comes out, and sneak behind the heavy teleport. However the timing is very strict, the reaction in a real match is pretty difficult, and screwing it up can be quite costly. If you don't feel confident in the 66L OS, you have two other good options.",
+        "1) Spend 50% for the DP. This is the safest option for dealing with teleport, but it costs 50%.",
+        "2) Wait. The medium teleport is minus on block and the heavy teleport is reactable with 2H. If he does the light teleport, let him get away with the plus frames. Basically, give up on one of the options. Not preferable, but easier to execute.",
+        "His U teleport is plus on block, but you can mash him out of it on reaction with 5L for a full punish, similar to Narmaya's U flip.",
+        "Once you've represented that you can deal with teleport in neutral, you'll mostly start to see it as a throwbait. Be careful hard-teching throws against this character. You'll also see it if you overrepresent tornado in neutral.",
+        "His fireball also has very distinct variants.",
+        "- The light one sends a disc slowly across the screen. It is easily spotdodged or rolled; you won't be plus on this roll, but you won't be punishable either.",
+        "- The medium one puts a disc in front of him for a bit. It is giga-plus on block. It can also be rolled, but the timing is pretty tight and it isn't reactable so it's a hard call out for you. Generally you will be giving him the plus frames from this - challenging isn't worth it.",
+        "- The heavy one puts a disc in front of him for a very long time. You'll see this variant mostly on oki because it's extremely slow for blockstrings. If you see a Lucilius try to press this in regular offense, you can react with sweep. This variant cannot be spotdodged or rolled.",
+        "- The ultimate one is very similar to the light one, but gives a ton of frame advantage on block. Definitely roll this! If you block he's in for free! Well, \"free.\" He spent. But you get it.",
+        "The big thing to be aware of with regard to fireball in this matchup is that he can't press it for free. His U fireball can be rolled. The other variants are all quite slow - you can easily punish with U tornado > U kick on reaction in neutral for a full combo.",
+        "His DP has, you guessed it, three variants (excluding U which is just a traditional metered DP).",
+        "- One is just a downswing. This is punishable. You won't see it.",
+        "- One is just an upswing. This is punishable, but you will see it sometimes because of the next bullet.",
+        "- One is an upswing, and then a downswing. This one is safe on block. If you spotdodge the downswing, you get a full punish. But if you spotdodge and he did the previous upswing-only variant, you die instead. It's risky RPS. If you're in a bad spot in the round, you can play the RPS; if you're in a good spot, don't bother.",
+        "He also has a stance where he readies his swords and stares at you menacingly. The main reason for Lucilius to press this is that it passively generates blade levels for him. He has, yup, three followups.",
+        "- He sends a sword forward. Minus but safe.",
+        "- He sends a sword forward, then brings it back. This is plus on block.",
+        "- He swings his sword down.",
+        "Airdash goes over the first two options, but a sufficiently ready Lucilius can swat you out of the air with the last option so it can be difficult to approach traditionally. Tornado is a fairly safe way to get him out of stance when he presses like this.",
+        "Lucilius's charging special is pretty much the same no matter the version. It charges forward, it's safe on block, and it leads to a full combo only if he has blade level 5. It's quite fast and goes quite far so Lucilius players will occasionally throw it out in neutral to try and get lucky. The direct damage he gets on hit may not be that high, but this move generates the most blade meter for him, so it's still a desirable hit for him. Try not to give it to him for free.",
+        "His f.M is a very strong button. It is 7f when you're close, 9f at max range, and quite difficult to whiff punish. This is generally Lucilius's choice of button when cornered, and it's pretty difficult to space around, so backing off against him in the corner is weaker than usual.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: His sweep is an omnipotent throwtech button and cannot be backwalked if the throw is initiated pointblank (thanks proximity guard).",
+        "Supers: His SBA has two variants. One fires a big blast instantly. It has normal SBA iframes and will beat tornado, etc. His second variant lets him fire up to three blasts before the big blast. He can mix up the timing, which makes it annoying to spotdodge. But it has no iframes so you won't see it as a reversal - he'll use it more as an antiair or fullscreen punish tool. SSBA has much much worse range than it looks and is a mediocre reaction super. It can be spotdodged."
+      ]
+    },
+    {
+      "name": "2B",
+      "image": "2b.jpg",
+      "paragraphs": [
+        "Addressing the elephant early: her air options are obnoxious. Everyone hates them. It isn't just you. She can doublejump, she can airstall, and she has a gigantic j.H with good speed that also hits crossup. It's annoying. But Grimnir is better situated to antiair her than most characters.",
+        "- Unless you are certain it will hit, do not 2H! It isn't nearly as good at hitting her out of the air as it looks.",
+        "- 623M is pretty good. It can get crushed by j.H so you can't press it if she's low to the ground, but if you react early, or as soon as you see the doublejump or airstall, she's a sitting duck. This leads to a full combo on hit from the heights that it tends to work at.",
+        "- j.214L is also okay, but it also gets crushed by her air normals and rarely does anything that 623M doesn't so I wouldn't recommend it. Reward on hit is also much lower. Favor 623M as your antiair in this matchup.",
+        "- If she jumps fullscreen, you can try to snipe her out of the air with up tornado. This is a good option, but only works if she's far away, and the tornado hitbox is smaller than it looks so it's hard.",
+        "- You can also just opt to walk forward and take the screenspace.",
+        "Most characters don't get to interact with 2B when she's in the air *at all*, so having 623M to hit her is a huge privilege in this matchup and we should be very thankful for it.",
+        "In neutral, you'll see her represent four main options.",
+        "- Laser. Doesn't really do anything. Just block it. Whatever.",
+        "- Chain. If you block this, she pulls herself to you and she is plus. You can spotdodge it on reaction. The annoying part is that it phases through other projectiles. You should not press stop tornado in this matchup.",
+        "- Run toward you. Her run has a long startup, but accelerates to be quite fast. She can run in and 5M you, or she can cancel it early with 5H to catch your attempts to check her. This is the problem option. If you see her start running fullscreen, you can try to slap her with tornado, but beware of the next option:",
+        "- Jump. I've already noted that we have good options to deal with jump, but those only apply when she's above us. If she jumps in from a run she's often more horizontal and can beat our attempts to antiair.",
+        "Your goal should be to push her toward the corner. When she's near the corner, she loses the ability to run at you and force this horizontal jump spacing, so you can much more reliably antiair her.",
+        "She ironically doesn't have a good way to deal with airdash so the threat of seals/install can force her to do really stupid jumps in neutral; against a lot of 2Bs you can just jump around on top of your seals and bait a good response.",
+        "If you lose neutral, defense is pretty difficult.",
+        "- The machinegun she fires at the ground is minus on block. If they're in 5M/66L range that's a good option since she can't do anything to stop us. More commonly she's spaced; she might press 2M or 5M to try and beat our 66L. f.H can beat these (her 2M whiffs and her 5M gets crushed), but it comes with the obvious risks of pressing f.H.",
+        "- If she does the laser and she's spaced it's even; the risk/reward here is in her favor so imo it's best to just keep blocking and let her spend her skill bar, but for the common options: f.H beats her pressing M and 66L beats her pressing H.",
+        "- Her baseball bat is plus if she hits the drone. You can roll the drone and then she's minus, but she can hold the baseball bat and punish you on the dodge so it's risky. She can reset pressure forever so you'll need to choose a place to mash eventually.",
+        "- She can cancel a normal into run. This is reactable, but it's a difficult reaction - it costs her a lot of skill meter, so it isn't terrible to just let her do it.",
+        "- The special where she jumps up and throws a bomb at the ground is reactable, and this is another place our Grimnir privilege reve als itself - you can punish on reaction with j.M > j.214M. This is a good throwbait for her as well which leads to a full combo on hit, so be careful teching throws against her.",
+        "- Her dodge/parry can bait BC and punish you. Low reward on hit, but you're still stuck on defense and you're down a bravery point so it's bad for you. There are very few safe places to BC in this matchup.",
+        "- On safejump, she has a \"high/low\" where she does her airstall very low to the ground and then hits you with an aerial. This is fake! If you fuzzy mash 5L you will hit her out of it for free. Don't let 2Bs get away with being idiots for free. Fuzzy mash 5L on the safejumps.",
+        "- She also has that special where she puts the tracking robot thing on you. While this is active she cannot use any other specials. The scary part is that she gets a full combo out of throw. Beware.",
+        "The saving grace on defense is that her damage is very poor, so we get a lot of chances to guess right.",
+        "She has a parry. It looks a lot like a backdash. If you trigger it, your move is treated as a whiff, and she can either do a 5f followup or cancel into a regular button. Off medium-speed buttons such as f.M, she only gets the 5f punish, which doesn't hurt that much. Off f.H she gets a full combo so beware. She can't punish lights, or 2M. The parry has a decently long recovery, but the visual tell is weird and she moves backward so it can be difficult to punish.",
+        "2B's U skills aren't super notable. The big one she has is the drone that drops balls on you that win neutral instantly on block. If she does this in neutral, you can react with U kick for a full punish, though this is risky if she does her U laser instead. If you want to be safe you can roll on reaction instead. Don't spotdodge!",
+        "66L: She doesn't really have a 66L. Her 5L and 5M will both lose to airdash.",
+        "Airdash on block: j.L wins against everything except U DP.",
+        "Throwtech RPS: Her 2M is an omnipotent throwtech button. You can walk back and whiff punish with 2M.",
+        "Supers: SBA and SSBA are both decent reaction supers and will beat tornado. Spotdodge SBA twice. Only need to spotdodge SSBA once.",
+        "She also has an alternate SSBA where she self-destructs, the \"booty install.\" It's unblockable. There's a timer above her head. Spotdodge it when it gets close to 0. Anything below, like, 0.2~0.3 will work."
+      ]
+    },
+    {
+      "name": "Vane",
+      "image": "vane.jpg",
+      "paragraphs": [
+        "You want to play a more grounded game than normal. Set up either EX seals or a row of ground seals. If he ever presses shield in neutral, you can grounddash in on reaction for a full punish. Can be tempting to press U tornado but he has time to spotdodge and then set up another shield so only do it if you're confident he's going to press something after.",
+        "If he presses U shield he gets a bunch of plus frames but no mix, just hold it.",
+        "If he whiffs his big swing fullscreen in neutral you can punish with 214U. Otherwise be ready to spotdodge, don't roll. Lean more on up tornado than push tornado in neutral because it catches him trying to air swing over it.",
+        "Don't tech throws - fuzzy mash 5L on defense to hit him out of his typical throwbait.",
+        "66L: Goes under airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: His 2M is an omnipotent throwtech button. Only option is to back away and whiffpunish with delay 2M. On defense you have to hold it.",
+        "Supers: SBA is a solid reaction super that beats all forms of tornado. SSBA has mediocre horizontal range and often won't reach. Both can be spotdodged."
+      ]
+    },
+    {
+      "name": "Beatrix",
+      "image": "beatrix.jpg",
+      "paragraphs": [
+        "Don't press pokes in neutral because she can go under all of them. Stop tornado can check Riding Free. When she has delta clock never press dash or backdash - play patient. Don't walk too much because EX Riding Free isn't reactable - represent downback regularly.",
+        "Dealing with divekick: H divekick can be rolled pointblank. You're minus, but you swap corner. M divekick... can technically be 2Hed! But it can be a difficult reaction. Safer to roll this too. If she does either while spaced (frequent in neutral), it cannot be rolled - your only choice to avoid giving her free plus frames is 2H. All divekicks (except U divekick) can also be punished on reaction with DP or super. There isn't really a whole lot we can do about U divekick. Even in neutral, you can't really punish it with 2H, and you're minus on spotdodge. DP/Super is about the only play.",
+        "H and U riding free are lows that both lead to full combos on hit when she's low on health, or after she's landed a command grab. Beatrix players WILL throw this out randomly in neutral or on defense and hope to get lucky. If you block it, you get a full punish with 2M > 236H~8. Basically, Beatrix players will consistently press this to gamble with their life, and you must be ready for the gamble.",
+        "Speaking of, she also has a command grab. Keep in mind fuzzy jump/fuzzy backdash as a defensive option in this matchup.",
+        "She can reset pressure with M fireball, but it's much easier to react with sweep than it looks, and it will pretty much always knock down. Outside of autocombo EX can be spotdodged, but often not on reaction, so only do it if they're getting predictable. She also likes to randomly throw out U fireball in neutral, but she doesn't get much reward on hit so it isn't that scary.",
+        "66L: Goes under airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: 2U beats both 2M and f.H. Can delay 2M to beat it.",
+        "Supers: Can both be dodged. Her SSBA is an extremely good reaction super. You can't press tornado while she has it."
+      ]
+    },
+    {
+      "name": "Versusia",
+      "image": "versusia.jpg",
+      "paragraphs": [
+        "Don't press EX seals in neutral until she burns her EX pillar cooldown. Once she burns pillar cooldown, our fireball is good for zoning her out, but don't waste too much time because you do want to get in. Be ready to dodge U pillar.",
+        "If she tries to buff raw in neutral you can punish with 214U, but if she hides behind her U ball there's nothing we can do. Weirdly, our EX fireball beats her EX fireball. If you block ball while she has stock, she can do a stomp followup to grab free plus frames, but most Versusias would rather have the stock than be in so I think you won't see this often.",
+        "If she backs off while you're in the corner she's going to press lariat raw, 100%, be ready. M and H lariat (the two that end in uppercut) are both punishable if she doesn't have stock. U, unfortunately, is not.",
+        "She can spend stock to command jump off her weird diagonal antiair laser. This is a safejump. Don't DP. You can fuzzy mash her landing, though. It can also crossup if she's close so be ready to hold block button.",
+        "Her 2L is +3. It is one of the best buttons in the game. She generally has access to a lot of plus frames, especially with stock, so plan to block for awhile. She'll have to do the same on our turn.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: 2U is an omnipotent throw tech button. Unless you initiate the throw spaced, you don't even have time to walk back and whiff punish. Gotta hold it.",
+        "Supers: She has excellent reaction supers so beware pressing tornado once she has 100 meter. SBA always gets cinematic, but can lose to stop fireball from far ranges. SSBA always wins but only gets cinematic up close."
+      ]
+    },
+    {
+      "name": "Vikala",
+      "image": "vikala.jpg",
+      "paragraphs": [
+        "You can see her next item below her meter. The main ones to watch out for are star, cannonball, and spike ball which all give her more plus frames on block than usual.",
+        "The high metal projectile beats airdash but can be ducked. The low one loses to airdash and cannot be rolled.",
+        "The main problem in the matchup is mouseball. It is very active, can snipe us out of airdash, and can loop plus frames in the corner. Instant roll will beat it at pretty much all spacings, but if you try to react you will lose.",
+        "66L: Goes under airdash.",
+        "Airdash on block: j.L wins against everything except U DP.",
+        "Throwtech RPS: Because of a strange hitbox interaction, her f.M crushes 2M but loses to f.L.",
+        "Supers: Both of her reaction supers are excellent. SBA in particular will pretty much always give cinematic. Be careful what you press when she has the bar. Both can be spotdodged."
+      ]
+    },
+    {
+      "name": "Sandalphon",
+      "image": "sandalphon.jpg",
+      "paragraphs": [
+        "Airdash is really good against both projectiles and stance, but it is punishable on block.",
+        "Can spotdodge the palm stance followup. Spotdodge loses to the slash projectile followup, but the reward on hit is low for him - whereas you can roll the slash followup, but then you lose to palm which has much higher reward. Safest play is to just block, which leaves you even but his buttons are better so it's RPS in his favor.",
+        "Has a throw/DP setup with water in the corner. Rare hit for him but can be scary so be aware.",
+        "If he has an element his H charge gives him free plus frames. Either try to stop him from taking an element in neutral or try to play out of the range where he can press charge and bully with tornado.",
+        "His wind stance gives him access to an airdash, but it sucks compared to ours, and he takes a billion more damage for it, so if he ever does it you can just 2H and murder him.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Punished by 9f DP.",
+        "Throwtech RPS: 2M is an omnipotent throwtech button. If you initiate the throw, you can walk back and whiff punish.",
+        "Supers: SBA is a decent reaction super that beats all forms of tornado. SSBA is a matchup-defining reaction super that hits fullscreen on frame 15. Careful sending tornados or moving in the air when he has it. Both can be spotdodged. Fullscreen SSBA is punishable with 214U on dodge."
+      ]
+    },
+    {
+      "name": "Galleon",
+      "image": "galleon.png",
+      "paragraphs": [
+        "Spotdodge and jump are very good. You can spotdodge her groundslam/rock fall, but be aware that it's a true blockstring out of her f.H so trying to spotdodge means you'll get hit standing. She can also charge it to make the low hit fullscreen, so don't assume you're perfectly safe just because you're far away.",
+        "If you spotdodge or jump the groundslam on prediction you get a full punish. The move is core to the character so she has to press it eventually. Play RPS around this.",
+        "She has a very slow but long-ranged pressure reset with her M tornado thing. You can mash her out of it, but from the spacing she tends to press it at it's going to be easier to spotdodge or jump.",
+        "Her EX dragon claw is also plus, and very large. Her f.H is large and +0 on block. In general her spaced corner pressure is strong into us.",
+        "Her command grab is the really scary part. If she has her mark on you in the corner, she can combo out of both EX and U command grabs for obscene damage. They are reactable. EX is 21f, U is 12f but with the U skill slowdown it's about the same. If you see her raise her staff above her head, you jump, and she dies. It's a big gamble for her, but it's a very difficult reaction. You can fuzzy forward jump on prediction instead, but obviously this can lose if she baits it.",
+        "She has an aerial divekick command grab. It whiffs on crouchers and has a billion frames of recovery, so if you duck it you can run up and get your best starter.",
+        "She also has an antiair command grab. It's a much better antiair than it looks and will beat any hitbox we put out. We have great ways to bait it with seal dash movement though so it's tough for her to press.",
+        "66L: Loses to airdash.",
+        "Airdash on block: j.L wins against everything except U DP.",
+        "Throwtech RPS: Default.",
+        "Supers: Her SBA and SSBA are both command grab supers, but uniquely they can both be jumped on reaction. If you aren't committed to a button when you see the cinematic, hold up for a full punish.",
+        "She has an alternate version of her SBA that sends an orb forward. Might invoke your Ferry trauma, but it's garbage by comparison. Roll on reaction for a full punish, jump over it, or just back up and it disappears pretty quickly on its own."
+      ]
+    },
+    {
+      "name": "Wilnas",
+      "image": "wilnas.png",
+      "paragraphs": [
+        "will add notes after I learn the matchup c:"
+      ]
+    },
+    {
+      "name": "Meg",
+      "image": "wilnas.png",
+      "paragraphs": [
+        "will add notes after I learn the matchup c:"
+      ]
+    },
+    {
+      "name": "EX Gran",
+      "image": "gran.jpg",
+      "paragraphs": [
+        "EX characters can be selected by pressing RB (controller) while hovering them. They're alternate versions. Think of them as new characters - you'll need to learn the matchups separately. In my experience they're also way way less popular than the default versions, so you'll hardly ever fight them, making it pretty hard to commit any of the matchup knowledge to memory. >:(",
+        "EX Gran's big knowledge check is his jumping slash special. The M and H versions are plus! You should spotdodge them - you'll almost always be plus, though if you do the latest possible spotdodge on the M version you can be -2. Notably you are never punishable for spotdodging any variant, so don't be afraid to spotdodge when you see it start up.",
+        "The U jumping slash is also plus on block - however, we are ALWAYS plus on spotdodge. Spotdodge it!",
+        "His goofy-looking lunging kick special is similar to regular Gran's boot - punishable pointblank, plus when spaced. Treat it the same way.",
+        "The stab specials are all -12 and punishable from any spacing, except U stab which is plus (but can be spotdodged).",
+        "His fireball becomes shortrange, kind of like Djeeta's U fireball. Only the EX variant is meaingfully plus.",
+        "Buttons are all the same as regular Gran, including the +1-on-block 2M.",
+        "He loses his DP special. Instead, 5U is his meterless DP for some reason. It's 12f so he can't punish airdash on block with it anymore. His metered DP is U kick.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: Same as regular Gran.",
+        "Supers: Same as regular Gran."
+      ]
+    },
+    {
+      "name": "EX Djeeta",
+      "image": "djeeta.jpg",
+      "paragraphs": [
+        "Her buttons, supers, and DP are all unchanged.",
+        "The jumping axe kick special is plus for all variants except U (which is her metered DP). It broadly can't be spotdodged on reaction, you're minus. You have to either mash it or react with DP/super. Unfortunately this makes it a little difficult for Grimnir to deal with.",
+        "Her L and M stab specials are -6 but unpunishable when spaced. If she does it close for some reason you can punish with 2M. EX stab special is -8 and can always be punished with f.H. U stab special is -4 and unpunishable even in the corner.",
+        "Her fireball is a very regular fireball. She can no longer charge it. Only the EX variant gives meaningful plus frames.",
+        "Her 5U gives her a stock that strengthens her fireball and stab specials, but it doesn't meaningfully change the framedata; be aware of the increased threat but otherwise deal with them as normal.",
+        "66L: Goes under airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: Same as regular Djeeta.",
+        "Supers: Same as regular Djeeta."
+      ]
+    },
+    {
+      "name": "EX Narmaya",
+      "image": "narmaya.jpg",
+      "paragraphs": [
+        "The most changed of the three EX characters currently in the game. She loses her iconic stance mechanic entirely, instead mixing features of both stances into a single moveset.",
+        "Her M somersault slash is +1 on block but leaves her awkwardly spaced. This is a spacing trap - you can mash out and beat most options with f.H, but if she presses 5L instead she'll counterhit for a full combo. You can microwait to try and whiff-punish her 5L, but this gives her time to walk back out of range of f.H and whiff-punish the first hit. Basically, you have no choice but to play RPS around this move. The other variants of this special are minus, including the U one which is -6 (punishable with 2M).",
+        "5U is setsuna (regular Narm's slash projectile). She can't hold it, but she *can* angle it upwards. Revolutionary. This actually makes it a little more difficult for us to deal with since we can no longer reliably go over it.",
+        "Her weird stepping slash thing is a straightforward poke special, safe when spaced.",
+        "Her DP is a typical DP. M has invuln and is 9f. Unlike regular Narm, there's no need to fear a parry or guardpoint on any of them - she only has the normal DP.",
+        "She loses flip entirely, so no air specials, and no need to worry about our antiair getting baited by j.214U.",
+        "66L: Goes under airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: Her 2U low-profiles f.H and leaves her +19(!!), but it loses to 2M, f.L, j.214M, or waiting and whiff-punishing.",
+        "Supers: Same as regular Narmaya."
+      ]
+    }
+  ]
+}

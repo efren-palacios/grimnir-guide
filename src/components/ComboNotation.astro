@@ -1,0 +1,29 @@
+---
+interface Props {
+  notation: string;
+}
+
+const { notation } = Astro.props;
+---
+
+<code class="combo-notation font-mono text-sm px-4 py-2 rounded-lg mb-2 inline-block">{notation}</code>
+
+<style>
+  .combo-notation {
+    background-color: #1a3d6b; /* Dark blue from gradient */
+    border: 1px solid rgba(45, 118, 254, 0.4); /* Blue accent border */
+    color: var(--sl-color-white);
+  }
+  
+  :root[data-theme="light"] .combo-notation {
+    background-color: #b3d1ff; /* Light blue from gradient */
+    border-color: rgba(45, 118, 254, 0.3); /* Blue accent border */
+    color: var(--sl-color-white);
+  }
+  
+  :root[data-theme="dark"] .combo-notation {
+    background-color: #1a3d6b; /* Dark blue from gradient */
+    border-color: rgba(45, 118, 254, 0.4); /* Blue accent border */
+    color: var(--sl-color-white);
+  }
+</style>

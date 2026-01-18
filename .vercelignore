@@ -1,0 +1,16 @@
+# Ignore large folders that shouldn't be deployed
+video/
+node_modules/
+dist/
+.astro/
+.git/
+
+# Old static site files
+*.html
+matchup-notes.css
+matchup-notes.txt
+style.css
+charicons/
+
+# Build artifacts
+.vercel

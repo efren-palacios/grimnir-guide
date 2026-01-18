@@ -1,0 +1,44 @@
+---
+import Layout from '../components/Layout.astro';
+import ComboCard from '../components/ComboCard.astro';
+
+const currentPath = '/gimmicks';
+---
+
+<Layout title="Gimmicks - Grimnir Combos" currentPath={currentPath}>
+  <div class="prose prose-lg dark:prose-invert max-w-none">
+    <h1>Other Gimmicks</h1>
+    <p>This page is for setups that don't really have a place on any of the other pages.</p>
+    
+    <ComboCard
+      title="22U 623H Drop Feint (+4)"
+      notation="autocombo > 623M > j.2U > rejump j.M > j.214H > 5H > 236H~4 > 22U (> 623H whiff > 2L)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/22u-623h-drop-feint.mp4"
+      description="Requires an air seal already set. Really convincing drop feint. 623H and 623M have the same frame data, so you can press 623M if you'd rather keep the cooldown, but there aren't any routes that use 623M this late in the combo so I think it makes the drop look a little more obvious."
+    />
+    
+    <ComboCard
+      title="Standard Meterless j.L Safejump"
+      notation="(starter) > 214H > 5L > 5H > 623H > j.H > jump > (delay j.L, whiff and hit on the way down)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/standard-meterless-jl-safejump.mp4"
+      description="Looks like a combo mishap at the end of the standard meterless route, but it's actually a cleverly disguised j.L safejump."
+    />
+    
+    <ComboCard
+      title="623H Safejump"
+      notation="(starter) > 214H > 5LLL > 236H (> 623H whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/623h-safejump.mp4"
+      description="Grimnir being actionable after his DP catches a lot of people off guard. You can often get away with this in actual combo drops too, though usually you're quite minus and lose to 2H. This setup is an exception! Fully safe DP &quot;drop.&quot; j.H whiffs if the opponent doesn't perform a ground recovery, but either way you're plus."
+    />
+    
+    <ComboCard
+      title="Corner Bounce-out 22U Crossup"
+      notation="(starter) > 214H > 2M > 623H > 5M > 236H~6 > walk forward > 22U (> 2L whiff > crossup j.M)"
+      videoSrcs={[
+        "https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/corner-bounceout-22u-1.mp4",
+        "https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/corner-bounceout-22u-2.mp4"
+      ]}
+      description="You're more likely to see this corner bounce-out happen accidentally after 214H wallbounce. If you realize in time, you can do this to salvage the uncommon drop and keep corner. You also don't need to walk forward for a bad 214H bounce, so it's a little easier to convert in a match. Second video is a way to double-salvage the drop if your 2L doesn't whiff: (5U > crossup j.M). Note that while the first video is a safejump, the second is not!"
+    />
+  </div>
+</Layout>

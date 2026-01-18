@@ -1,0 +1,331 @@
+{
+  "characters": [
+    {
+      "name": "Gran",
+      "image": "gran.jpg",
+      "notes": [
+        "Defense is difficult due to his many plus frames and 5U. His sweep low-profiles both of our common pokes. Airdash is good against his fireball, but he can punish it on block with DP so don't throw it out too much.",
+        "The little uppercut he does at the start of his M fireball destroys opposing fireballs, including stop tornado, so be ready for him to try to punish seal set with it. If you wait, you can just hit him out of the startup.",
+        "Don't spotdodge his U kick - punish it on block with 2M. The other kicks can be plus when spaced, though when done up close they're punishable.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Punished by 9f DP.",
+        "Throwtech RPS: Instant 2M will lose to 2M and 2U, but they don't reach so delay 2M will win. You can't backwalk 2U because of proximity guard, but as long as you don't hold crouch (this expands your hurtbox) it will whiff.",
+        "Supers: Despite his SBA looking similar to other competent reaction supers, it's terrible and loses to any form of fireball. But his SSBA is a very good reaction super, be wary. Both can be spotdodged."
+      ],
+      "slug": "gran"
+    },
+    {
+      "name": "Djeeta",
+      "image": "djeeta.jpg",
+      "notes": [
+        "Has a rekka, but gets no reward off the last hit even on counterhit so it's relatively safe to mash.",
+        "If she has any charge on 5U it's plus. Likes to use it as a throwbait. You can often beat it with fuzzy mash 5L.",
+        "Likes to press U fireball as a throw crush/corner pressure tool, and throw out U rekka randomly in neutral. U fireball leads to a full combo so be careful when challenging in the corner. Also, it's plus on dodge and she can block BC after.",
+        "Midscreen, U rekka doesn't lead to much on hit other than a knockdown, but if it reaches corner she gets a full combo so keep it in mind. If you block it in the corner it's throw punishable.",
+        "Can charge any of her fireballs for enhanced frame data. If you roll a charged fireball during corner pressure you're plus, but be careful of dodging uncharged fireball, because if she charges it instead it'll beat your dodge and you'll die. If you dodge uncharged EX fireball you're not plus enough to safely challenge so you're playing RPS.",
+        "66L: Goes under airdash.",
+        "Airdash on block: Regular.",
+        "Throwtech RPS: 2M is a 7f low and beats all options except j.214U.",
+        "Supers: Both can be spotdodged. Like Gran, her SBA will lose to any form of fireball. Unlike Gran, her SSBA is a mediocre reaction super that will whiff past the midrange."
+      ],
+      "slug": "djeeta"
+    },
+    {
+      "name": "Katalina",
+      "image": "katalina.jpg",
+      "notes": [
+        "Her charge is an annoying move to deal with. She can't be plus off it, but her buttons are so much better that when spaced she can often stuff an attempt to challenge. When you're near the corner, randomly throwing out H charge is a safe play that can easily lead to a full combo.",
+        "Katalinas will randomly throw out Shield Wall on offense to try and bait BC. If you press BC, you die. If you don't, she broadly has three followups she'll do:",
+        "1) Slash, then backstep. She's minus but far enough away that it can be tough to challenge, especially on reaction.",
+        "2) Slash, then forward step. She is -5 at best and -1 at worst depending on how long she charges. Note that -1 means her throw will beat an attempt to mash 5L, so you have to play the throw RPS.",
+        "3) No slash and backstep. This is extremely punishable, but not on reaction.",
+        "You can sometimes mash to beat her before she has time to do any followup. In particular, Shield Wall only has one point of armor, so f.H's two hits, U tornado's multihit, or just mashing 5L autocombo can all win against delayed followups. If she does it in a blockstring, the slash will generally come out first and beat you, so beware.",
+        "66L: Loses to airdash.",
+        "Airdash on block: Punished by 9f DP.",
+        "Throwtech RPS: 2M is a 7f low and beats all options except j.214U.",
+        "Supers: SBA is a good reaction super that beats all forms of tornado. SSBA's lack of horizontal range makes it much more mediocre. Unfortunately, neither can be spotdodged. You can roll behind SBA, but not SSBA. If she doesn't catch you during dash startup, you can block SSBA (but not SBA). It's annoying to remember."
+      ],
+      "slug": "katalina"
+    },
+    {
+      "name": "Charlotta",
+      "image": "charlotta.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "charlotta"
+    },
+    {
+      "name": "Lancelot",
+      "image": "lancelot.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "lancelot"
+    },
+    {
+      "name": "Percival",
+      "image": "percival.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "percival"
+    },
+    {
+      "name": "Ladiva",
+      "image": "ladiva.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "ladiva"
+    },
+    {
+      "name": "Metera",
+      "image": "metera.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "metera"
+    },
+    {
+      "name": "Lowain",
+      "image": "lowain.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "lowain"
+    },
+    {
+      "name": "Ferry",
+      "image": "ferry.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "ferry"
+    },
+    {
+      "name": "Zeta",
+      "image": "zeta.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "zeta"
+    },
+    {
+      "name": "Vaseraga",
+      "image": "vaseraga.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "vaseraga"
+    },
+    {
+      "name": "Narmaya",
+      "image": "narmaya.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "narmaya"
+    },
+    {
+      "name": "Soriz",
+      "image": "soriz.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "soriz"
+    },
+    {
+      "name": "Zooey",
+      "image": "zooey.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "zooey"
+    },
+    {
+      "name": "Cagliostro",
+      "image": "cagliostro.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "cagliostro"
+    },
+    {
+      "name": "Yuel",
+      "image": "yuel.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "yuel"
+    },
+    {
+      "name": "Anre",
+      "image": "anre.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "anre"
+    },
+    {
+      "name": "Eustace",
+      "image": "eustace.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "eustace"
+    },
+    {
+      "name": "Seox",
+      "image": "seox.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "seox"
+    },
+    {
+      "name": "Vira",
+      "image": "vira.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "vira"
+    },
+    {
+      "name": "Beelzebub",
+      "image": "beelzebub.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "beelzebub"
+    },
+    {
+      "name": "Belial",
+      "image": "belial.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "belial"
+    },
+    {
+      "name": "Avatar Belial",
+      "image": "avatarbelial.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "avatar-belial"
+    },
+    {
+      "name": "Anila",
+      "image": "anila.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "anila"
+    },
+    {
+      "name": "Siegfried",
+      "image": "siegfried.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "siegfried"
+    },
+    {
+      "name": "Grimnir",
+      "image": "grimnir.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "grimnir"
+    },
+    {
+      "name": "Nier",
+      "image": "nier.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "nier"
+    },
+    {
+      "name": "Lucilius",
+      "image": "lucilius.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "lucilius"
+    },
+    {
+      "name": "2B",
+      "image": "2b.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "2b"
+    },
+    {
+      "name": "Vane",
+      "image": "vane.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "vane"
+    },
+    {
+      "name": "Beatrix",
+      "image": "beatrix.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "beatrix"
+    },
+    {
+      "name": "Versusia",
+      "image": "versusia.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "versusia"
+    },
+    {
+      "name": "Vikala",
+      "image": "vikala.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "vikala"
+    },
+    {
+      "name": "Sandalphon",
+      "image": "sandalphon.jpg",
+      "notes": [
+        "Default"
+      ],
+      "slug": "sandalphon"
+    },
+    {
+      "name": "Galleon",
+      "image": "galleon.png",
+      "notes": [
+        "Default"
+      ],
+      "slug": "galleon"
+    },
+    {
+      "name": "Wilnas",
+      "image": "wilnas.png",
+      "notes": [
+        "Default"
+      ],
+      "slug": "wilnas"
+    },
+    {
+      "name": "Meg",
+      "image": "meg.png",
+      "notes": [
+        "Default"
+      ],
+      "slug": "meg"
+    }
+  ]
+}

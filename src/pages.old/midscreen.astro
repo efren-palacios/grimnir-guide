@@ -1,0 +1,140 @@
+---
+import Layout from '../components/Layout.astro';
+import ComboCard from '../components/ComboCard.astro';
+
+const currentPath = '/midscreen';
+---
+
+<Layout title="Midscreen Combos - Grimnir Combos" currentPath={currentPath}>
+  <div class="prose prose-lg dark:prose-invert max-w-none">
+    <h1>Midscreen Setups</h1>
+    
+    <ComboCard
+      title="Meterless Midscreen"
+      notation="(starter) > 214L"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/meterless-midscreen.mp4"
+      description="Grimnir's meterless midscreen conversions are pretty average. Off very distant hits (including most whiff punishes) you can't even connect 214L. If your starter is autocombo, you can end on 214M instead for greater corner carry."
+    />
+    
+    <ComboCard
+      title="Midscreen-to-Corner"
+      notation="autocombo or 2M > 236H~8 > 214U > 2H > 623H > 5H > 214H > 22U (> 2L whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/214u-corner-wallbounce.mp4"
+      description="Your easiest (actual) midscreen combo. You need to be somewhat close to the corner to get the wallbounce with 214U. Can end in whatever you feel like if you don't want to spend the additional 25% for the metered safejump.<br/><br/>Even if you don't reach the corner for wallbounce this will probably still be your go-to midscreen combo; the others either require more specific starters or are prohibitively expensive. In this case the combo ends after the 214U, and you can either use the knockdown to set up seals or run up and take oki with 66L."
+    />
+    
+    <h1>Midscreen 623L</h1>
+    <p>Grimnir's midscreen combos took a significant hit in the 2.20 patch, so it's more important than ever to learn to make the most of your seals midscreen. These next few combos show ways to convert out of less convenient seal placements.</p>
+    
+    <ComboCard
+      title="623L (reaches corner)"
+      notation="(starter) > 623L > 6U > 2M > 236H > run forward > 214H > 623H > j.H > rejump j.H (> j.22H > j.6U whiff > j.M safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-623l-reach-corner.mp4"
+      description="When you hit your starter but don't quite reach your seal for a gale dash extension, you can use the forward movement from light spin to convert into a full combo. If you think you'll reach the corner with 214H, this sets up for a meterless safejump. Need to eyeball the delay on the 623H based on distance from corner; sending it as early as possible won't let you connect j.H after. If you aren't comfortable with guessing the timing for the safejump, you can just do 5H > 623H > j.22H instead to set up seals. This is preferable to dropping the combo."
+    />
+    
+    <ComboCard
+      title="623L (no corner)"
+      notation="(starter) > 623L > 6U > 2M > 236H > run forward > 214U > 22X"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-623l-no-corner.mp4"
+      description="If you don't think you'll reach the corner with 214H, you can do this instead to push your opponent Quite Close to the corner and set up seals. Running forward is optional but gives additional corner carry, and honestly it helps with the timing."
+    />
+    
+    <ComboCard
+      title="623M (reaches corner)"
+      notation="(starter) > 623M > j.3U > 5H > 214H > 623H > j.H > rejump j.H (> j.22H > j.6U whiff > j.M safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-623m-reach-corner.mp4"
+      description="A similar concept with 623M. Less damage than the 623L route but keeps your tornado cooldown. Generally you don't get the choice of which route you use because it depends where your seals are, but on the rare occasions you do get to choose, that's your tradeoff."
+    />
+    
+    <ComboCard
+      title="623M (no corner)"
+      notation="(starter) > 623M > j.3U > 5H > 236H~8 > 214U > 22X"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-623m-no-corner.mp4"
+      description="Similar variant if you won't reach the corner with 214H."
+    />
+    
+    <h1>Raging Strike Routes</h1>
+    <p>With the removal of midscreen 214U wallbounce in patch 2.20, Grimnir now needs to rely on raging strike to consistently convert into meaningful combos midscreen. Listed next are a bunch of different options. However, always keep in mind the additional option of "don't do them" - your bravery points are very valuable, and it isn't always worth spending them to convert into a combo. Knowing when to spend and when to save is a skill in itself.</p>
+    
+    <ComboCard
+      title="Raging Strike Seal Setup"
+      notation="(starter) > raging strike > raging chain > 22U > 5H > 623L > 9U > delay j.3U > (walk back) delay 623H (> j.22H)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-rs-seal-setup.mp4"
+      description="Puts the opponent's back against the wall and sets up seals. Great general-purpose option if you want to spend for it. The 623H is slightly awkward but consistent with practice."
+    />
+    
+    <ComboCard
+      title="Raging Strike Tornado Carry"
+      notation="(starter) > raging strike > raging chain > 22U > 5HH > 236H > delay 6U6U > 5M (> 214L whiff)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-rs-tornado-carry.mp4"
+      description="Great corner carry route that leaves you plus in your opponent's face. Much more useful when you're close to the corner (shown next)."
+    />
+    
+    <ComboCard
+      title="Raging Strike Tornado Carry (Reaches Corner)"
+      notation="(starter) > raging strike > raging chain > 22U > 5HH > 236H > run forward > 214H > 2H (> 5U > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-rs-tornado-carry-corner.mp4"
+      description="Excellent midscreen-to-corner seal safejump setup. Enables Grimnir's scary corner offense from as far as 60% of the stage."
+    />
+    
+    <ComboCard
+      title="Raging Strike Safejump"
+      notation="(starter) > raging strike > raging chain > 22U > 5H > 623L > 9U > j.H > j.214L > delay 9U (> j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-rs-safejump.mp4"
+      description="Easy midscreen safejump setup. Wait on the second 9U until after you &quot;land&quot; from the j.214L."
+    />
+    
+    <ComboCard
+      title="Raging Strike Run Under"
+      notation="(starter) > raging strike > raging chain > 22U > 5H > 623L > 9U > delay j.3U > 2H > 22L > run forward"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-rs-run-under.mp4"
+      description="Funny gimmick sideswap that very obviously looks like a sideswap. Has non-gimmick merit as one of the only raging strike routes to leave you plus in the opponent's face *and* on top of a seal."
+    />
+    
+    <h1>Midscreen 22U</h1>
+    <p>Mostly only works from autocombo starter because other starters have more pushback, so it's pretty rare that you have the opportunity to use one of these in a match. (That's why they're at the bottom of the page where no one will look.)</p>
+    
+    <ComboCard
+      title="Midscreen 22U Corner-to-Corner (623L)"
+      notation="autocombo > 22U > f.H > 623L > 6U > 5M > 6U > 2M > 236H > run forward > 214H > run forward > 623H > j.22H"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/22u-corner-to-corner-623l.mp4"
+      description="Easy and consistent corner-to-corner seal setup route. Midscreen 22U combos like this cost the full 50% (no refund) since you have to cancel into the special, but if you have the rare opportunity to do this combo it's probably worth it - Grimnir is a much much scarier character when he has seals on you in the corner."
+    />
+    
+    <ComboCard
+      title="Midscreen 22U Corner-to-Corner (66L)"
+      notation="autocombo > 22U > 66L > 5MM > 6U > 5HH > 6U > 5HHH > 236H~8 > 214U > 2H > 623H > 5H > 214H > 5H > 22H"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/22u-corner-to-corner-hard.mp4"
+      description="Significantly more damage than the previous combo, but costs 25% more meter, and the 66L is a difficult 2f link. If you're confident in your execution and have the meter to spend you can consider using this."
+    />
+    
+    <ComboCard
+      title="Midscreen 22U Safejab"
+      notation="autocombo > 22U > f.H > 623L > 6U > delay 6U > MMM (> 214M whiff)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-22u-safejab.mp4"
+      description="Leaves you +6 in your opponent's face, setting up a perfectly timed safejab. Safejabs lose to ultimate DPs but are safe to any other form of DP."
+    />
+    
+    <ComboCard
+      title="Midscreen 22U Corner-to-Corner Safejump"
+      notation="autocombo > 22U > f.H > 623L > 6U > 5M > 9U > delay j.3U > 5H > 214H > run forward > 22U (> 2L whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-22u-corner-to-corner.mp4"
+      description="Pretty difficult combo that can just barely take the enemy corner-to-corner if you execute it perfectly. Note the height after the j.3U - you need about that much height. Any lower and you don't reach corner. Any higher and 214H whiffs. If you're slightly out of the corner it becomes pretty lenient and very solid for the rare opportunities you hit it."
+    />
+    
+    <ComboCard
+      title="Midscreen 22U Corner-to-Corner (Crouching)"
+      notation="autocombo > 22U > microwalk 5HHH > 6U > 5HH > 6U > 5HHH > 236H~8 > 214U > walk forward > f.H > 623H > 5H > 214H > 5H > 22H"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-22u-crouching.mp4"
+      description="Crouch-exclusive midscreen 22U confirm. Realistically you're probably never getting this hit in a match, but if you do you can get a lot of damage out of this route."
+    />
+    
+    <ComboCard
+      title="Airdash 22U Confirm"
+      notation="j.6U > j.L (or j.M) > 22U > microwalk 5HHH > 6U > 5HH > 6U > 5HHH > 236H~8 > 214U > 2H > 623H > 5H > 214H > 22U (> 2L whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/airdash-22u-confirm.mp4"
+      description="If you're ready, you can convert a close airdash hit into 22U routing of your choice. Distant airdash hits will leave you too far to convert."
+    />
+  </div>
+</Layout>

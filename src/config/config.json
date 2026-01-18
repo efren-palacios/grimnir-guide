@@ -1,0 +1,29 @@
+{
+  "site": {
+    "title": "Grimnir Guide",
+    "logo": "/grimnir/charicons/grimnir.jpg",
+    "logo_darkmode": "/grimnir/charicons/grimnir.jpg",
+    "logo_width": "40",
+    "logo_height": "40",
+    "logo_text": "Grimnir Guide"
+  },
+
+  "settings": {
+    "search": true,
+    "theme_switcher": true
+  },
+
+  "params": {
+    "footer_contact": {
+      "enable": false,
+      "action": "#"
+    },
+    "copyright": "Grimnir tech resource for Granblue Fantasy Versus: Rising. Frame meter mod: <a class=\"text-primary hover:underline no-underline\" href=\"https://github.com/agersant/gbvsr-frame-meter\" target=\"_blank\" rel=\"noopener\">gbvsr-frame-meter</a>"
+  },
+
+  "navigation_button": {
+    "enable": true,
+    "label": "Get Started",
+    "link": "/grimnir/recommended/"
+  }
+}

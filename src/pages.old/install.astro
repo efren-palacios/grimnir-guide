@@ -1,0 +1,170 @@
+---
+import Layout from '../components/Layout.astro';
+import ComboCard from '../components/ComboCard.astro';
+import VideoPlayer from '../components/VideoPlayer.astro';
+import ComboNotation from '../components/ComboNotation.astro';
+
+const currentPath = '/install';
+---
+
+<Layout title="Install Tech - Grimnir Combos" currentPath={currentPath}>
+  <div class="prose prose-lg dark:prose-invert max-w-none">
+    <h1>Install Tech</h1>
+    <p>Grimnir's install is broadly considered meme-tier, but believe it or not, it DOES give several serious and unironic advantages that can warrant pressing, especially in matchups where U skills aren't as necessary.</p>
+    <p>It opens up the ability to throw bait from anywhere, safely buffer full combos behind your lights, and move around in ways that are harder to predict. You can threaten airdash counterpoke from any position, and you can convert any hit into a corner safejump.</p>
+    <p>Install can be particularly worth pressing when the enemy is one hit from death, but super won't be enough to kill; or, when you get reset to neutral and one more confirm will win.</p>
+    
+    <h1>Install Setups</h1>
+    <p>Combo routes that activate install in the middle. This isn't necessary, or even necessarily encouraged. You could just save your meter and pop install if you get reset to neutral - it's unpunishable as long as you aren't point-blank. But if you know you want to install in advance (for the defensive properties, or maybe just for fun) the following are several different ways to activate.</p>
+    
+    <ComboCard
+      title="Install Setup Safejump"
+      notation="(starter) > 214H > 5L > 5H > 236H~4 > 623H > j.H > 2H (> install > j.6U > j.M safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-setup-alt.mp4"
+      description="The easiest install safejump combo with the fewest restrictions. Common starter, doesn't require seal cooldown, and activates at the very end so meter is more lenient. The downsides are that the safejump costs juice directly and it doesn't set up seals, but it's a super consistent backup route if you can't route into anything better. Somewhat frequently baits a DP response because it doesn't look like a safejump."
+    />
+    
+    <ComboCard
+      title="Install Seal Setup Safejump"
+      notation="(starter) > 214H > 2M > 236H > (delay)2H > install > 623H > j.H > rejump j.H (> j.22H > 6U whiff > j.M safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-setup.mp4"
+      description="This is the &quot;best&quot; install activation route in that it leaves the most seals on board, but it's also a lot more specific than it sounds. You need to have seal cooldown up and you need to build the meter early in the combo. These conditions are a little rarer than you expect. It's also more difficult to execute than the previous combo. Your reward for hitting it is a safejump that leaves behind 3 seals.<br/><br/>Though it's the best install setup in theory, it does have the worst possible seal cooldown rotation, so if you want to make full use of single seals for install movement it can be a little awkward."
+    />
+    
+    <ComboCard
+      title="623H Install Seal Setup Safejump"
+      notation="(starter) > 623H > j.214H > j.22H > j.2U > 5H > 236H~8 > 2H > install > 2H (> 5U > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/j.214h-install.mp4"
+      description="Another three seal safejump route. Broadly similar to the previous combo (in outcome, not in routing) - in this one, you need your seal cooldown even sooner, but can afford to wait until the end to build the meter. The starter being more specific is the main downside, so you have even fewer opportunities to route into it."
+    />
+    
+    <div class="mb-8 p-6 bg-grimnir-ivory-light rounded-lg border border-grimnir-gold/20 shadow-sm">
+      <h3 class="text-xl font-serif font-semibold text-grimnir-charcoal mb-3">623H Install Setup Safejump/Empty Low</h3>
+      <ComboNotation notation="(starter) > 623H > j.H > rejump j.H > j.214H > 5H > 236H~4 > 2H > install > 2H (> delay cancel 5U > j.H safejump)" />
+      <VideoPlayer src="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/rejump-j.214h-install.mp4" />
+      <VideoPlayer src="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/rejump-j.214h-install-empty-low.mp4" />
+      <div class="mt-4 text-grimnir-charcoal leading-relaxed">
+        <p>Sets up zero seals, so you should favor other routes in general, but if you don't have the cooldown this is slightly better than the first route listed because it doesn't cost any juice for the safejump.</p>
+        <p>Do 236H~4 > delay 5U for the safejump, 236H (no followup) > instant 5U for the empty low. If you have seals setup elsewhere the 5U will send you off on a grand adventure, so you'll need to spend the juice for 8U/9U instead. The timing is the same.</p>
+      </div>
+    </div>
+    
+    <ComboCard
+      title="Install Seal Tornado Setup"
+      notation="(starter) > 214H > 2M > 623H > j.22H > j.9U > (delay) j.2U > 2H > install > 2H (> 236L~4)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/tornado-install.mp4"
+      description="Install tornado setup, particularly useful against parry characters. Unfortunately it's also the most difficult route on this list - the j.22H and 9U2U timings are very awkward. Not so hard that you can't hit it in a match, but hard enough that you can drop it."
+    />
+    
+    <h1>Install Combos</h1>
+    
+    <ComboCard
+      title="Install Midscreen"
+      notation="(starter) > 623L > 6U > 2M > 236H > dash forward > 214H > 623H > j.H > rejump j.H (> j.22H > j.6U whiff > j.M safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-midscreen.mp4"
+      description="The only midscreen install combo you need to know. Takes you corner-to-corner with only two dashes, AND it's a safejump setup. Need to delay the 623H dynamically based on distance to corner. Don't do more 6U > autocombo repetitions than you need to reach the corner - if you do too many, you'll get pushed out of range of autocombo and drop. Also, if you're too close to the corner, 236H will only hit twice and the combo will drop. At closer ranges, you can just do the standard corner bnb (listed next)."
+    />
+    
+    <ComboCard
+      title="Install Corner Safejump"
+      notation="(starter) > 214H > 5L > 5H > 236H~4 > 623H > j.H > rejump j.H (> j.22H > j.6U whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-meterless-fuzzy.mp4"
+      description="Literally just the meterless safejump combo from the other page. If you were hoping for an install-specific route you might be disappointed, but this combo is great, and you shouldn't be spending your install juice any more than strictly necessary.<br/><br/>Realistically you aren't likely to use this very much. If you're popping install, your enemy is probably one hit from death, and you'll just use the next combo instead."
+    />
+    
+    <ComboCard
+      title="Install Cashout"
+      notation="(starter) > raging strike > 5H > 623H > 5H > 236H~8 > 5H > 214H > 5H > raging strike"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-cashout.mp4"
+      description="The combo you do to kill. Disappointingly it's less damage than a regular super combo, but chances are by the time you've popped install the enemy is in range to die to this. Depending on how long you've been in install, you might build the 25% for a raging chain at the very end for an extra 200 damage.<br/><br/>The (starter) at the beginning doesn't explain as much as I would like so I'll leave additional notes here. On standing hit, you can do three full autocombos and one 2M. On crouching hit, you can do four full autocombos and the first hit of f.H. If you have a different starter it can slightly change the pushback so be aware; when in doubt, play it safe and cut one of the autocombo reps."
+    />
+    
+    <h1>Bonus Routes</h1>
+    <p>Meme combos with extremely varying degrees of practicality.</p>
+    
+    <ComboCard
+      title="Install Corner Steal"
+      notation="(starter) > 214H > 5L > 5H > 236H~4 > 623M > j.1U > f.L (> 6U whiff > 2L)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-corner-steal.mp4"
+      description="Funny corner steal. Reactable, but most people aren't ready for Grimnir to steal the corner and are not holding the block button so it hits a decent amount. You're +3 so even if they react they can't mash. Can also occasionally bait a reversal by crossing up the opponent's input. Fairly easy to execute since the muscle memory transfers directly from the standard meterless safejump route. You can also go into this from the standard install midscreen route, which is shown in the latter half of the video."
+    />
+    
+    <ComboCard
+      title="Install Ball Loop"
+      notation="j.214M > 8U > j.214L > 8U > j.214L > 8U > j.214L (> 8U whiff > j.L safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-ball-loop.mp4"
+      description="Your optimal* (in terms of mental damage) combo out of j.214M throwbait. Spends four juice for a really stupid safejump."
+    />
+    
+    <ComboCard
+      title="Install Backward Ball"
+      notation="j.214M > 7U > j.H > (delay) f.H > 214H > 5H > 623H (> j.22H)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-backward-ball.mp4"
+      description="Cool 1-juice j.214M throwbait conversion with a backwards airdash. Does respectable damage and sets up seals. If j.214M had meaningful merit as a throwbait this combo might actually get used."
+    />
+    
+    <ComboCard
+      title="Install X Ball"
+      notation="(starter) > 623H > j.H > land and backjump > j.214L > delay j.3U > rejump j.214L > delay j.1U > 2H > 214H (> 22H)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-x-ball.mp4"
+      description="Slightly difficult, but looks cool and only spends two juice so it's borderline usable."
+    />
+    
+    <ComboCard
+      title="Install Spin Loop"
+      notation="autocombo > 623M > j.3U > 2H > 623M > j.2U whiff > 2M > 623L (> j.9U whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-midscreen-spin-loop.mp4"
+      description="Install-exclusive midscreen safejump. Unfortunately it spends three juice just for the setup, does poverty damage, and doesn't even carry to the corner. Effectively zero merit. But if you know it'll kill anyway, you can swag on them with this."
+    />
+    
+    <ComboCard
+      title="Install j.M Loop"
+      notation="autocombo > 9U > j.M > j.6U > j.M > rejump j.M > j.6U > j.M > 5H (> j.9U whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-jm-loop.mp4"
+      description="Even cooler install-exclusive safejump route. This one spends FOUR juice for the setup, which definitely means it must be better, yup.  Again, zero merit. You could have just taken them to the corner instead. But isn't having zero merit kind of a merit in itself?"
+    />
+    
+    <ComboCard
+      title="Install j.M Loop Empty Low (+3)"
+      notation="autocombo > 9U > j.M > j.6U > j.M > rejump j.M > j.6U > j.M > rejump j.M (> j.9U whiff > j.M whiff > 2L)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-jm-loop-low.mp4"
+      description="Funny variant on the previous setup. Your opponent probably doesn't know the combo limit for install combos, so you have good odds on catching them sleeping with this dastardly install-exclusive empty low."
+    />
+    
+    <ComboCard
+      title="Install Midscreen Crossup"
+      notation="(starter) > 623M > j.3U > 2H > 236H~4 > (delay)5M > 623L (> 6U whiff)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-midscreen-crossup.mp4"
+      description="Spends two juice for a very reactable midscreen crossup. Your opponent is probably holding the guard button anyway. You could have just taken them to the corner instead."
+    />
+    
+    <h1>Bonus Bonus Routes</h1>
+    
+    <ComboCard
+      title="Install Loop"
+      notation="5H counterhit > install > j.L > j.6U > j.M > rejump j.L > j.6U > j.M > rejump j.L > j.6U > j.M > rejump j.L > j.6U > j.M > rejump j.L > j.6U > j.M > rejump j.L > j.6U > j.M > meterless combo"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-loop.mp4"
+      description="Funny install loop. Only works on characters Zooey-height or taller. Slightly awkward but not difficult. You might be able to hit this in a match if you really fish for it."
+    />
+    
+    <ComboCard
+      title="Install Midscreen Overhead Reset"
+      notation="(starter) > 623M > j.3U > 5H > 623M > j.3U (whiff) > crossup 2M > 623M > j.3U > crossup 2H (> 236H~8 whiff > 66M)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-midscreen-overhead-reset.mp4"
+      description="Difficult install-exclusive midscreen overhead reset. All inputs need to be performed as early as possible. The combo itself isn't too bad, but the resulting conversion is extremely challenging to pick up. You must hit the 66M exactly as soon as possible (unbufferable 1f link) then walk forward and delay 623L. Common drop points:<br/><br/>- The crossup 2M whiffs. This means you didn't hit the first 5H soon enough so the opponent lost too much height.<br/><br/>- The crossup 2H goes the wrong way. This means you pressed 2H too late.<br/><br/>- The tornado doesn't hit the opponent after the overhead, or only hits once instead of three times. This means you were too late on the overhead.<br/><br/>- The tornado hits the opponent three times but you can't walk forward enough to connect with 623L. This means you were one frame too late on the overhead.<br/><br/>- You hit the 623L, but the 6U after whiffs. This means you pressed 623L too early. You needed to walk forward for longer so the opponent fell lower.<br/><br/>One other note because this wasn't hard enough to hit in match as is: counterhit changes the bounce you get on overhead hit and causes the opponent to fly past the tornado, so you can't convert at all if the opponent mashes on wakeup."
+    />
+    
+    <ComboCard
+      title="Something Stupid"
+      notation="autocombo > 623M > j.2U > j.8U > j.2U > j.8U > j.2U > j.8U > j.H (> j.214H whiff > j.L safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/install-zipper-loop.mp4"
+      description="Yeah."
+    />
+    
+    <div class="mb-8 p-6 bg-grimnir-ivory-light rounded-lg border border-grimnir-gold/20 shadow-sm">
+      <h3 class="text-xl font-serif font-semibold text-grimnir-charcoal mb-3">Removed in 2.10</h3>
+      <VideoPlayer src="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/fuzzy-loop-extended.mp4" />
+      <p class="mt-4 text-grimnir-charcoal leading-relaxed">Never forget what they took from you.</p>
+    </div>
+  </div>
+</Layout>

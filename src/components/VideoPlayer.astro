@@ -1,0 +1,20 @@
+---
+interface Props {
+  src: string;
+  width?: string;
+}
+
+const { src, width = '60%' } = Astro.props;
+---
+
+<div class="my-4">
+  <video 
+    controls 
+    preload="metadata" 
+    class="w-full rounded-lg border border-[var(--sl-color-gray-3)] shadow-lg"
+    style={`max-width: ${width};`}
+  >
+    <source src={src} />
+    Your browser does not support the video tag.
+  </video>
+</div>

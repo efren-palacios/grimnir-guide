@@ -1,0 +1,58 @@
+---
+import Layout from '../components/Layout.astro';
+import ComboCard from '../components/ComboCard.astro';
+
+const currentPath = '/recommended';
+---
+
+<Layout title="Recommended Combos - Grimnir Combos" currentPath={currentPath}>
+  <div class="prose prose-lg dark:prose-invert max-w-none">
+    <h1>Three Simple Combos</h1>
+    <p>These three combos will cover the most common situations you find yourself in during a match. If you're new to the character and just want a few quick things to get you started playing, learn these, and you can branch out into <a href="/grimnir/">other setups</a> later.</p>
+    
+    <ComboCard
+      title="Easy Corner Safejump"
+      notation="(starter) > 214H > 2M > 236H > 5H > 623H > 22U (> 5U > j.6U whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/metered-1.mp4"
+      description="This is the easiest safejump setup Grimnir has access to. Replace the 22U at the end with super if you think it will kill. If you don't want to spend the meter, you can do 623H > 5HHH > 22H to set up seals without a safejump."
+    />
+    
+    <ComboCard
+      title="Easy Midscreen Combo"
+      notation="autocombo or 2M > 236H~8 > 214U > 2H > 623H > 5H > 214H > 22U (> 2L whiff > j.H safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/214u-corner-wallbounce.mp4"
+      description="As Grimnir you should plan on spending meter for your midscreen hits. This combo is very consistent and lets you set up seals to start spooky Grimnir offense. Note that it only works from about midscreen - as of patch 2.20, 214U only gives wallbounce in the corner.<br/><br/>Even if you don't reach the corner this will probably still be your go-to midscreen combo; the others either require more specific starters or are prohibitively expensive. In this case the combo ends after the 214U, and you can either use the knockdown to set up seals or run up and take oki with 66L."
+    />
+    
+    <ComboCard
+      title="Easy Antiair"
+      notation="2H (counterhit) > 236H~4 > run forward > 5HHH > 623H > j.22H"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-antiair-meterless-no-corner.mp4"
+      description="2H counterhit antiair is your biggest reward on hit. Also works off low non-counterhits. Note the weird 623H hit here; you get this if they're high enough, and it leaves them closer for better oki. If you're late on the 5HHH you'll get a clean hit and send them flying instead. Not a big deal, just means instead of getting oki you're reset back to neutral (with seals)."
+    />
+    
+    <h1>Three More Combos</h1>
+    <p>These combos are more difficult or situational than the previous three. They serve as an entry point into Grimnir's other setup types. You should wait to learn them until after you've gotten used to the character.</p>
+    
+    <ComboCard
+      title="Tornado &quot;Safejump&quot;"
+      notation="(starter) > 214H > 2M > 623H > 5MMM (> 236L~4 whiff)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/tornado-safejump.mp4"
+      description="Not really a safejump, but may as well be: this setup is safe to DP and gives you free plus frames. As a bonus it also works against parry characters. The downsides are that it doesn't set up seals and it does pretty disappointing damage by Grimnir standards, but we can fix these flaws in later routes."
+    />
+    
+    <ComboCard
+      title="Midscreen 623L"
+      notation="(starter) > 623L > 6U > 2M > 236H > run forward > 214H > 623H > j.H > rejump j.H (> j.22H > j.6U whiff > j.M safejump)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-623l-reach-corner.mp4"
+      description="Grimnir's midscreen combos took a significant hit in the 2.20 patch, so it's more important than ever to learn to make the most of your seals midscreen. It's easy to extend combos if you're standing directly on a seal, but less obvious how to make use of them when you're standing in front of one. This is one way, and the one you'll use the most often: leverage the forward momentum from 623L to convert into a full combo.<br/><br/>If you think you'll reach the corner with 214H, this sets up for a meterless safejump. Need to eyeball the delay on the 623H based on distance from corner; sending it as early as possible won't let you connect j.H after. If you aren't comfortable with guessing the timing for the safejump, you can just do 5H > 623H > j.22H instead to set up seals. This is preferable to dropping the combo."
+    />
+    
+    <ComboCard
+      title="Camera 50/50"
+      notation="(starter) > 214H > 2M > 236H > 5H > 623H > j.22U > j.99U (> j.26U whiff > j.L)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/camera-high.mp4"
+      description="End in (j.23U whiff > 2L) instead to hit low. Easier than it looks: when you press U for the j.99U, hold the U button for the entire rest of the setup up to the j.L/2L. High safejumps, low loses to DP. Theoretically reactable, but this isn't common knowledge and it's a very difficult reaction so the absurd majority of the ranked playerbase treats it as a pure 50/50."
+    />
+  </div>
+</Layout>

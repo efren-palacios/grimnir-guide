@@ -1,0 +1,55 @@
+---
+import Layout from '../components/Layout.astro';
+import ComboCard from '../components/ComboCard.astro';
+
+const currentPath = '/tornado-setups';
+---
+
+<Layout title="Tornado Setups - Grimnir Combos" currentPath={currentPath}>
+  <div class="prose prose-lg dark:prose-invert max-w-none">
+    <h1>Tornado Setups</h1>
+    <p>Note that tornado throw combos were removed in version 2.20. If you see Grimnirs comboing out of throw in videos elsewhere but can't seem to do it yourself, it's because you can't anymore!</p>
+    
+    <ComboCard
+      title="Tornado &quot;Safejump&quot;"
+      notation="(starter) > 214H > 2M > 623H > 5MMM (> 236L~4 whiff)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/tornado-safejump.mp4"
+      description="Not really a safejump, but may as well be: this setup is safe to DP and gives you free plus frames. As a bonus it also works against parry characters. The downsides are that it doesn't set up seals and it does pretty disappointing damage by Grimnir standards, but we can fix these flaws in later routes.<br/><br/>You can spend EX tornado instead, but you're plus either way, so there isn't much reason to blow the cooldown. M tornado is slower and often won't be safe to DP."
+    />
+    
+    <ComboCard
+      title="Tornado &quot;Safejump&quot; (Seal Setup)"
+      notation="(starter) > 214H > 2M > 623H > j.22H > j.8U > delay j.2U > 5HHH (> 236L~4 whiff)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/tornado-safejump-alt.mp4"
+      description="Improved version of the previous setup that tacks on a bit more damage and leaves behind two seals to bait throws, etc. Unfortunately it's somewhat difficult - the timing for the dash pattern is pretty awkward and takes practice."
+    />
+    
+    <ComboCard
+      title="Tornado &quot;Safejump&quot; (623H)"
+      notation="autocombo > 623H > j.H > rejump j.H > j.214H > j.22H > j.2U > 5HHH (> 214L~4 whiff)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/tornado-safejump-623h.mp4"
+      description="Further improved (and fortunately easier) tornado safejump setup that leaves behind *three* seals. The downside of this one is that the starter is more specific."
+    />
+    
+    <ComboCard
+      title="Tornado &quot;Safejump&quot; (Metered)"
+      notation="autocombo > 214H > 2M > 623H > 22U > 5HHH (> 214L~4 whiff)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/tornado-safejump-metered.mp4"
+      description="Excellent and very easy four-seal setup if you're willing to spend the 25%."
+    />
+    
+    <ComboCard
+      title="Tornado Overhead (Corner)"
+      notation="(starter) > 214H > 2M > 623H > j.22H > j.3U > 8U > j.M > j.1U > 2H (> 236H~8 whiff > 66M"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/corner-tornado-overhead.mp4"
+      description="Extremely gimmicky overhead combo setup. The overhead is reactable and if it's blocked you die, so don't try this in real matches."
+    />
+    
+    <ComboCard
+      title="Tornado Overhead (Midscreen)"
+      notation="(starter) > raging strike > raging chain > 22U > 5H > 623L > 9U > (delay) j.3U > 2H (> 236H~8 whiff > 66M)"
+      videoSrc="https://github.com/grimnir-combos/grimnir-combos.github.io/raw/refs/heads/master/video/midscreen-tornado-overhead.mp4"
+      description="Similar concept but midscreen. Similarly kills you if they block. Also much harder to convert because you need the earliest possible 66M."
+    />
+  </div>
+</Layout>

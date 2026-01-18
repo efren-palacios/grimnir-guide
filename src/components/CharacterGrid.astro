@@ -1,0 +1,137 @@
+---
+interface Props {
+  characters: Array<{
+    name: string;
+    image: string;
+    slug?: string;
+    notes?: string[];
+  }>;
+}
+
+const { characters } = Astro.props;
+const basePath = '/grimnir';
+const currentPath = Astro.url.pathname;
+
+// Helper to create slug from name
+function getSlug(char: any): string {
+  if (char.slug) return char.slug;
+  const name = char.name;
+  if (name === 'Avatar Belial') return 'avatar-belial';
+  if (name === '2B') return '2b';
+  if (name === 'EX Gran') return 'ex-gran';
+  if (name === 'EX Djeeta') return 'ex-djeeta';
+  if (name === 'EX Narmaya') return 'ex-narmaya';
+  return name.toLowerCase().replace(/\s+/g, '-');
+}
+---
+
+<div class="character-grid-container">
+  <div class="character-grid">
+    {characters.map((char) => {
+      const slug = getSlug(char);
+      const isSelected = currentPath.includes(`/matchup-notes/${slug}`);
+      const imagePath = char.image.includes('.') ? char.image : `${char.image}.jpg`;
+      return (
+        <a
+          href={`/grimnir/matchup-notes/${slug}`}
+          class={`character-card ${isSelected ? 'selected' : ''}`}
+          aria-label={`View matchup notes for ${char.name}`}
+        >
+          <img 
+            src={`${basePath}/charicons/${imagePath}`}
+            alt={char.name}
+            class="character-icon"
+            loading="lazy"
+          />
+          <span class="character-name">{char.name}</span>
+        </a>
+      );
+    })}
+  </div>
+</div>
+
+<style>
+  .character-grid-container {
+    margin: 2rem 0;
+  }
+  
+  .character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  
+  .character-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #1a2d4a; /* Dark blue from gradient */
+    border: 2px solid rgba(45, 118, 254, 0.4); /* Blue accent border */
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  :root[data-theme="light"] .character-card {
+    background-color: #cce0ff; /* Light blue from gradient */
+    border-color: rgba(45, 118, 254, 0.3);
+  }
+  
+  :root[data-theme="dark"] .character-card {
+    background-color: #1a2d4a; /* Dark blue from gradient */
+    border-color: rgba(45, 118, 254, 0.4);
+  }
+  
+  .character-card:hover {
+    border-color: #2d76fe; /* Blue accent */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(45, 118, 254, 0.3);
+  }
+  
+  .character-card.selected {
+    border-color: #2d76fe; /* Blue accent */
+    background-color: #1a3d6b; /* Slightly lighter dark blue */
+    box-shadow: 0 0 0 2px rgba(45, 118, 254, 0.5);
+  }
+  
+  :root[data-theme="light"] .character-card.selected {
+    background-color: #b3d1ff; /* Slightly darker light blue */
+  }
+  
+  .character-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(45, 118, 254, 0.3);
+  }
+  
+  .character-name {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--sl-color-white);
+    word-break: break-word;
+  }
+  
+  @media (min-width: 768px) {
+    .character-grid {
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+    
+    .character-icon {
+      width: 80px;
+      height: 80px;
+    }
+    
+    .character-name {
+      font-size: 1rem;
+    }
+  }
+</style>
+

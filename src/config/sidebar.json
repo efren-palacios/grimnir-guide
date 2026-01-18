@@ -1,0 +1,76 @@
+{
+  "main": [
+    {
+      "label": "Getting Started",
+      "items": [
+        {
+          "label": "Introduction",
+          "link": "/"
+        },
+        {
+          "label": "Recommended Combos",
+          "link": "/recommended"
+        }
+      ]
+    },
+    {
+      "label": "Combos",
+      "items": [
+        {
+          "label": "Corner Safejumps",
+          "link": "/corner-safejumps"
+          },
+        {
+          "label": "Midscreen Combos",
+          "link": "/midscreen"
+        },
+        {
+          "label": "Antiairs",
+          "link": "/antiairs"
+          },
+        {
+          "label": "Empty Lows",
+          "link": "/empty-lows"
+        },
+        {
+          "label": "Super and Cashout Combos",
+          "link": "/super-combos"
+          },
+        {
+          "label": "U Skill Starters",
+          "link": "/u-skill-starters"
+        }
+      ]
+    },
+    {
+      "label": "Setups",
+      "items": [
+        {
+          "label": "Tornado Setups",
+          "link": "/tornado-setups"
+          },
+        {
+          "label": "Camera 50/50",
+          "link": "/camera-5050"
+        },
+        {
+          "label": "Gimmicks",
+          "link": "/gimmicks"
+          },
+        {
+          "label": "Install Tech",
+          "link": "/install"
+        }
+      ]
+    },
+    {
+      "label": "Matchups",
+      "items": [
+    {
+          "label": "Matchup Notes",
+          "link": "/matchup-notes"
+        }
+      ]
+    }
+  ]
+}
