@@ -1,7 +1,7 @@
 ---
 import config from "@/config/config.json" assert { type: "json" };
 const { siteTitle, siteTitleHref } = Astro.locals.starlightRoute;
-const basePath = '/grimnir';
+const basePath = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '');
 
 const { src, srcDarkmode }: { src?: string; srcDarkmode?: string } =
   Astro.props;

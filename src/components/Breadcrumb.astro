@@ -1,6 +1,6 @@
 ---
 const url = Astro.url;
-const base = '/grimnir';
+const base = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '');
 const pathSegments = url.pathname.split("/").filter((segment) => segment && segment !== 'grimnir');
 const breadcrumbItems = pathSegments.map((segment, index) => {
   const href = base + "/" + pathSegments.slice(0, index + 1).join("/");

@@ -2,11 +2,11 @@
   "main": [
     {
       "name": "Home",
-      "url": "/grimnir/"
+      "url": "/"
     },
     {
       "name": "Recommended",
-      "url": "/grimnir/recommended/"
+      "url": "/recommended/"
     },
     {
       "name": "Combos",
@@ -15,27 +15,27 @@
       "children": [
         {
           "name": "Corner Safejumps",
-          "url": "/grimnir/corner-safejumps/"
+          "url": "/corner-safejumps/"
         },
         {
           "name": "Midscreen",
-          "url": "/grimnir/midscreen/"
+          "url": "/midscreen/"
         },
         {
           "name": "Antiairs",
-          "url": "/grimnir/antiairs/"
+          "url": "/antiairs/"
         },
         {
           "name": "Empty Lows",
-          "url": "/grimnir/empty-lows/"
+          "url": "/empty-lows/"
         },
         {
           "name": "Super Combos",
-          "url": "/grimnir/super-combos/"
+          "url": "/super-combos/"
         },
         {
           "name": "U Skill Starters",
-          "url": "/grimnir/u-skill-starters/"
+          "url": "/u-skill-starters/"
         }
       ]
         },
@@ -46,25 +46,25 @@
       "children": [
         {
           "name": "Tornado Setups",
-          "url": "/grimnir/tornado-setups/"
+          "url": "/tornado-setups/"
         },
         {
           "name": "Camera 50/50",
-          "url": "/grimnir/camera-5050/"
+          "url": "/camera-5050/"
         },
         {
           "name": "Gimmicks",
-          "url": "/grimnir/gimmicks/"
+          "url": "/gimmicks/"
         },
         {
           "name": "Install Tech",
-          "url": "/grimnir/install/"
+          "url": "/install/"
         }
       ]
         },
         {
       "name": "Matchups",
-      "url": "/grimnir/matchup-notes/"
+      "url": "/matchup-notes/"
         }
   ],
   "footer": {

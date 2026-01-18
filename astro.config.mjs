@@ -24,7 +24,7 @@ export default defineConfig({
   },
   output: 'static',
   site: 'https://grimnir-combos.github.io',
-  base: '/grimnir',
+  base: '/',
   integrations: [
     starlight({
       title,

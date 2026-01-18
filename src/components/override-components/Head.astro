@@ -29,15 +29,15 @@ if (theme.fonts.font_family.secondary) {
   if (Tag === 'link' && attrs && (attrs.rel === 'shortcut icon' || attrs.rel === 'icon')) {
     return (
       <>
-        <link rel="icon" type="image/jpeg" href="/grimnir/charicons/grimnir.jpg" />
-        <link rel="shortcut icon" type="image/jpeg" href="/grimnir/charicons/grimnir.jpg" />
+        <link rel="icon" type="image/jpeg" href="/charicons/grimnir.jpg" />
+        <link rel="shortcut icon" type="image/jpeg" href="/charicons/grimnir.jpg" />
       </>
     );
   }
   return <Tag {...attrs} set:html={content} />
 })}
 
-<link rel="apple-touch-icon" href="/grimnir/charicons/grimnir.jpg" />
+<link rel="apple-touch-icon" href="/charicons/grimnir.jpg" />
 
 <script is:inline>
   // Set default theme to dark if not already set

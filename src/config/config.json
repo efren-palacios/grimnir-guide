@@ -1,8 +1,8 @@
 {
   "site": {
     "title": "Grimnir Guide",
-    "logo": "/grimnir/charicons/grimnir.jpg",
-    "logo_darkmode": "/grimnir/charicons/grimnir.jpg",
+    "logo": "/charicons/grimnir.jpg",
+    "logo_darkmode": "/charicons/grimnir.jpg",
     "logo_width": "40",
     "logo_height": "40",
     "logo_text": "Grimnir Guide"
@@ -24,6 +24,6 @@
   "navigation_button": {
     "enable": true,
     "label": "Get Started",
-    "link": "/grimnir/recommended/"
+    "link": "/recommended/"
   }
 }

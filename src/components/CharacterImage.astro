@@ -36,7 +36,7 @@ const selectedCharData = characterSlug
   ? matchupsData.characters.find(char => matchesSlug(char, characterSlug!))
   : null;
 
-const basePath = '/grimnir';
+const basePath = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '');
 ---
 
 {selectedCharData && (

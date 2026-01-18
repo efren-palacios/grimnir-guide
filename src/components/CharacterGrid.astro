@@ -9,7 +9,7 @@ interface Props {
 }
 
 const { characters } = Astro.props;
-const basePath = '/grimnir';
+const basePath = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '');
 const currentPath = Astro.url.pathname;
 
 // Helper to create slug from name
@@ -33,7 +33,7 @@ function getSlug(char: any): string {
       const imagePath = char.image.includes('.') ? char.image : `${char.image}.jpg`;
       return (
         <a
-          href={`/grimnir/matchup-notes/${slug}`}
+          href={`${basePath ? basePath + '/' : '/'}matchup-notes/${slug}`}
           class={`character-card ${isSelected ? 'selected' : ''}`}
           aria-label={`View matchup notes for ${char.name}`}
         >

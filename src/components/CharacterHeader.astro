@@ -5,7 +5,7 @@ interface Props {
 }
 
 const { name, imageSrc } = Astro.props;
-const basePath = '/grimnir';
+const basePath = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '');
 ---
 
 <div class="flex items-center gap-4 mb-6">

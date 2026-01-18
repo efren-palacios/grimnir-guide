@@ -9,7 +9,7 @@ interface Props {
 
 const { name, image, notes } = Astro.props;
 const imagePath = image.includes('.') ? image : `${image}.jpg`;
-const basePath = '/grimnir';
+const basePath = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '');
 ---
 
 <div class="character-matchup">
