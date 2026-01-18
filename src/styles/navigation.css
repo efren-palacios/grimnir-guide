@@ -29,8 +29,13 @@
 .navbar {
   @apply relative flex flex-wrap items-center justify-between ;
 }
-.navbar-scrolled{
-  @apply bg-lightmode-body dark:bg-body;
+.navbar-scrolled {
+  @apply backdrop-blur-xl;
+  -webkit-backdrop-filter: blur(24px);
+  background-color: color-mix(in srgb, var(--color-body) 72%, transparent);
+}
+:root[data-theme="light"] .navbar-scrolled {
+  background-color: color-mix(in srgb, var(--color-lightmode-body) 72%, transparent);
 }
 .navbar-brand {
   @apply  text-xl font-semibold flex items-center select-none;
