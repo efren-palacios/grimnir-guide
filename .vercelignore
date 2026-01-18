@@ -10,7 +10,7 @@ dist/
 matchup-notes.css
 matchup-notes.txt
 style.css
-charicons/
+/charicons/
 
 # Build artifacts
 .vercel
