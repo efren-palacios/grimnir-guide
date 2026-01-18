@@ -1,5 +1,5 @@
-# Ignore large folders that shouldn't be deployed
-video/
+# Ignore large folders that shouldn't be deployed (root /video/ only; public/video/ is included)
+/video/
 node_modules/
 dist/
 .astro/
