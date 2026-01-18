@@ -7,7 +7,7 @@ const { className }: { className?: string } = Astro.props;
 
 {
   theme_switcher && (
-    <div class={`theme-switcher ${className}`}>
+    <div class={`theme-switcher theme-switcher-initial ${className}`}>
       <input id="theme-switcher" data-theme-switcher type="checkbox" />
       <label for="theme-switcher">
         <span class="sr-only">theme switcher</span>
@@ -77,6 +77,7 @@ const { className }: { className?: string } = Astro.props;
   const themeSwitcher = document.querySelector(
     "input[data-theme-switcher]"
   ) as HTMLInputElement;
+
   themeSwitcher?.addEventListener("change", (e) => {
     if ((e.currentTarget as HTMLInputElement).checked) {
       document.documentElement.dataset.theme = "dark";
@@ -87,18 +88,29 @@ const { className }: { className?: string } = Astro.props;
     }
   });
 
-  document.addEventListener("DOMContentLoaded", () => {
+  function initThemeSwitcher() {
     const savedTheme = localStorage.getItem("starlight-theme");
     if (savedTheme === "light") {
-      themeSwitcher.checked = false;
+      if (themeSwitcher) themeSwitcher.checked = false;
       document.documentElement.dataset.theme = "light";
     } else {
-      // Default to dark theme
-      themeSwitcher.checked = true;
+      if (themeSwitcher) themeSwitcher.checked = true;
       document.documentElement.dataset.theme = "dark";
       if (!savedTheme) {
         localStorage.setItem("starlight-theme", "dark");
       }
     }
-  });
+    // Remove initial class after first frame so the slide doesn't animate on load/navigate
+    requestAnimationFrame(() => {
+      document.querySelectorAll(".theme-switcher").forEach((el) => {
+        el.classList.remove("theme-switcher-initial");
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initThemeSwitcher);
+  } else {
+    initThemeSwitcher();
+  }
 </script>

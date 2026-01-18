@@ -121,7 +121,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 /* theme-switcher */
 .theme-switcher {
-  @apply inline-flex border border-lightmode-light/10! dark:border-light/10!  rounded-full py-2 px-1  bg-gray-200 dark:bg-dark;
+  @apply inline-flex border border-lightmode-light/10! dark:border-light/10!  rounded-full py-2 px-1  bg-gray-200 dark:bg-[#1e2d42];
 
   label {
     @apply relative h-4 w-6 cursor-pointer rounded-2xl lg:w-13 bg-transparent flex justify-between items-center;
@@ -141,6 +141,11 @@ input#nav-toggle:checked ~ #nav-menu {
       @apply lg:left-7;
     }
   }
+}
+
+/* No slide animation on load/navigate—only when user toggles */
+.theme-switcher.theme-switcher-initial span {
+  transition: none !important;
 }
 
 
