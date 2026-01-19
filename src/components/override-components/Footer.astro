@@ -111,6 +111,7 @@ const currentLocal = Astro.currentLocale || "en";
     </div>
     <div class="bottom-footer">
       <p set:html={markdownify(config?.params?.copyright)} />
+      <p class="footer-credits" set:html={markdownify("Credits: [Grimnir Combos](https://grimnir-combos.github.io/) · [GitHub project](https://github.com/grimnir-combos/grimnir-combos.github.io)")} />
     </div>
   </div>
 </footer>
@@ -205,6 +206,10 @@ const currentLocal = Astro.currentLocale || "en";
 
     .bottom-footer a:hover {
       color: var(--color-primary);
+    }
+    .footer-credits {
+      margin: 0;
+      font-size: 0.9rem;
     }
   }
 </style>
