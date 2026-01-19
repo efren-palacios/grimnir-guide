@@ -40,6 +40,13 @@ if (theme.fonts.font_family.secondary) {
       </>
     );
   }
+  // Avoid "Site Title | Site Title" when page title equals site title (e.g. home)
+  if (Tag === 'title' && typeof content === 'string') {
+    const duplicated = `${config.site.title} | ${config.site.title}`;
+    if (content.trim() === duplicated) {
+      return <title>{config.site.title}</title>;
+    }
+  }
   return <Tag {...attrs} set:html={content} />
 })}
 
