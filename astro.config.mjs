@@ -32,7 +32,7 @@ export default defineConfig({
       // logo: (logo && logo_darkmode) ? {
       //   light: logo,
       //   dark: logo_darkmode,
-      //   alt: "Grimnir Guide Logo",
+      //   alt: "The Grimnoire Logo",
       // } : undefined,
       // @ts-ignore
       social: social.main || [],

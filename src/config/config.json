@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "Grimnir Guide",
+    "title": "The Grimnoire",
     "logo": "/charicons/grimnir.jpg",
     "logo_darkmode": "/charicons/grimnir.jpg",
     "logo_width": "40",
     "logo_height": "40",
-    "logo_text": "Grimnir Guide"
+    "logo_text": "The Grimnoire"
   },
 
   "settings": {
@@ -18,7 +18,7 @@
       "enable": false,
       "action": "#"
     },
-    "copyright": "Grimnir tech resource for Granblue Fantasy Versus: Rising. Frame meter mod: <a class=\"text-primary hover:underline no-underline\" href=\"https://github.com/agersant/gbvsr-frame-meter\" target=\"_blank\" rel=\"noopener\">gbvsr-frame-meter</a>"
+    "copyright": "The Grimnoire — Grimnir tech resource for Granblue Fantasy Versus: Rising. Frame meter mod: <a class=\"text-primary hover:underline no-underline\" href=\"https://github.com/agersant/gbvsr-frame-meter\" target=\"_blank\" rel=\"noopener\">gbvsr-frame-meter</a>"
   },
 
   "navigation_button": {
