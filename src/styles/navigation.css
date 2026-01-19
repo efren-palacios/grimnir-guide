@@ -30,8 +30,8 @@
   @apply relative flex flex-wrap items-center justify-between ;
 }
 .navbar-scrolled {
-  @apply backdrop-blur-xl;
   -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
   background-color: color-mix(in srgb, var(--color-body) 72%, transparent);
 }
 :root[data-theme="light"] .navbar-scrolled {
